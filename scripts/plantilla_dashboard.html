@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard de ventas 2025 – Distribuidora Pacífico S.A.</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--azul:#0b4f6c;--claro:#f4f7fa;--gris:#5b6770;--borde:#dde3e8}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--claro);color:#1d2a33}
+header{background:var(--azul);color:#fff;padding:18px 28px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px}
+header h1{margin:0;font-size:1.4rem}
+header p{margin:4px 0 0;opacity:.85;font-size:.9rem}
+select{padding:8px 12px;border-radius:6px;border:none;font-size:1rem}
+main{max-width:1250px;margin:0 auto;padding:20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:#fff;border:1px solid var(--borde);border-radius:10px;padding:14px}
+.kpi span{display:block;color:var(--gris);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.kpi b{font-size:1.35rem;color:var(--azul)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px}
+.card{background:#fff;border:1px solid var(--borde);border-radius:10px;padding:16px;margin-bottom:16px}
+.card h2{font-size:1.05rem;margin:0 0 10px;color:var(--azul)}
+.chart{position:relative;height:280px}
+ul{padding-left:20px}
+li{margin-bottom:6px;line-height:1.45}
+details{border-top:1px solid var(--borde);padding:10px 0}
+summary{cursor:pointer;font-weight:600}
+details p{line-height:1.5}
+.nota{color:var(--gris);font-size:.85rem}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{border-bottom:1px solid var(--borde);padding:6px;text-align:left}
+footer{text-align:center;color:var(--gris);font-size:.85rem;padding:20px}
+</style>
+</head>
+<body>
+<header>
+ <div><h1>Distribuidora Pacífico S.A. – Ventas 2025</h1>
+ <p>Dashboard generado por scripts/analisis.py · <span id="fechaGen"></span></p></div>
+ <label>Región:&nbsp;<select id="filtro" aria-label="Filtrar por región"></select></label>
+</header>
+<main>
+ <section class="kpis" id="kpis"></section>
+ <section class="card"><h2>Resumen ejecutivo</h2><ul id="resumen"></ul>
+  <p class="nota">El filtro de región actualiza las tarjetas y los gráficos; el resumen, la tabla RFM y las preguntas se refieren a toda la empresa.</p></section>
+ <div class="grid">
+  <section class="card"><h2>Ventas netas por mes (USD)</h2><div class="chart"><canvas id="gMes"></canvas></div></section>
+  <section class="card"><h2>Ventas por región (USD)</h2><div class="chart"><canvas id="gRegion"></canvas></div></section>
+  <section class="card"><h2>Ventas por canal (USD)</h2><div class="chart"><canvas id="gCanal"></canvas></div></section>
+  <section class="card"><h2>Ventas por categoría (USD)</h2><div class="chart"><canvas id="gCat"></canvas></div></section>
+  <section class="card"><h2>Top 5 productos (USD)</h2><div class="chart"><canvas id="gProd"></canvas></div></section>
+  <section class="card"><h2>Segmentos RFM (nº de clientes)</h2><div class="chart"><canvas id="gRfm"></canvas></div></section>
+ </div>
+ <section class="card"><h2>Segmentos RFM – toda la empresa</h2><table id="tRfm"></table></section>
+ <section class="card"><h2>Preguntas al agente</h2>
+  <p class="nota">Respuestas generadas por el Agente Analista de Ventas (Claude Code) a partir de los datos limpios.</p>
+  <div id="preguntas"></div></section>
+ <section class="card"><h2>Calidad de datos</h2><p id="calidad"></p></section>
+</main>
+<footer>Generado por el Agente Analista de Ventas (Claude Code) – datos ficticios con fines académicos</footer>
+<script id="datos" type="application/json">__DATOS__</script>
+<script>
+const D = JSON.parse(document.getElementById('datos').textContent);
+const fmt = v => 'USD ' + v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const pct = v => (v === null || v === undefined) ? 'n/d' : v.toFixed(2) + ' %';
+const COL = ['#0b4f6c', '#20bf55', '#f4a259', '#e15554', '#7768ae', '#3bb273', '#4d9de0'];
+const SEG = ['Campeones', 'Leales', 'Potenciales', 'En riesgo', 'Perdidos'];
+const $ = id => document.getElementById(id);
+$('fechaGen').textContent = 'generado el ' + D.generado;
+const sel = $('filtro');
+Object.keys(D.porRegion).forEach(r => {
+  const o = document.createElement('option'); o.value = r;
+  o.textContent = r === 'Todas' ? 'Todas las regiones' : r; sel.appendChild(o);
+});
+D.resumen.forEach(t => { const li = document.createElement('li'); li.textContent = t; $('resumen').appendChild(li); });
+D.preguntas.forEach(q => {
+  const d = document.createElement('details'), s = document.createElement('summary'), p = document.createElement('p');
+  s.textContent = q.p; p.textContent = q.r; d.append(s, p); $('preguntas').appendChild(d);
+});
+$('calidad').textContent = 'Filas originales: ' + D.calidad.antes + ' · filas tras limpieza: ' + D.calidad.despues +
+  ' · eliminadas: ' + Object.entries(D.calidad.motivos).map(([k, v]) => k + ' = ' + v).join('; ') + '.';
+const t = $('tRfm');
+t.innerHTML = '<tr><th>Segmento</th><th>Clientes</th><th>Ventas netas</th><th>% ventas</th><th>Acción comercial</th></tr>';
+SEG.forEach(s => {
+  const v = D.segmentos[s], tr = document.createElement('tr');
+  [s, v.clientes, fmt(v.ventas), pct(v.participacion_pct), v.accion].forEach(x => {
+    const td = document.createElement('td'); td.textContent = x; tr.appendChild(td);
+  });
+  t.appendChild(tr);
+});
+const ch = {};
+function crear(id, tipo, leyenda, horizontal) {
+  ch[id] = new Chart($(id), {
+    type: tipo,
+    data: {labels: [], datasets: [{data: [], backgroundColor: COL[0], borderColor: COL[0], tension: 0.25}]},
+    options: {responsive: true, maintainAspectRatio: false, indexAxis: horizontal ? 'y' : 'x',
+      plugins: {legend: {display: !!leyenda},
+        tooltip: {callbacks: {label: c => (tipo === 'bar' && id === 'gRfm') ? c.raw + ' clientes' : fmt(c.raw)}}}}
+  });
+}
+crear('gMes', 'line'); crear('gRegion', 'bar'); crear('gCanal', 'doughnut', true);
+crear('gCat', 'bar'); crear('gProd', 'bar', false, true); crear('gRfm', 'bar');
+function poner(c, labels, data, colores) {
+  c.data.labels = labels; c.data.datasets[0].data = data;
+  if (colores) c.data.datasets[0].backgroundColor = colores;
+  c.update();
+}
+function actualizar() {
+  const r = sel.value, B = D.porRegion[r], k = B.kpis;
+  const tarjetas = [['Ventas netas', fmt(k.ventas_netas)], ['Margen bruto', fmt(k.margen_bruto)],
+    ['Margen %', pct(k.margen_pct)], ['Pedidos', k.pedidos], ['Ticket promedio', fmt(k.ticket_promedio)],
+    ['Clientes activos', k.clientes_activos]];
+  $('kpis').innerHTML = '';
+  tarjetas.forEach(([n, v]) => {
+    const d = document.createElement('div'), s = document.createElement('span'), b = document.createElement('b');
+    d.className = 'kpi'; s.textContent = n; b.textContent = v; d.append(s, b); $('kpis').appendChild(d);
+  });
+  poner(ch.gMes, B.mensual.map(m => m.nombre), B.mensual.map(m => m.ventas));
+  const regs = Object.keys(D.regiones);
+  poner(ch.gRegion, regs, regs.map(x => D.regiones[x].ventas),
+    regs.map(x => (r === 'Todas' || r === x) ? COL[0] : '#c9d3db'));
+  const cn = Object.keys(B.canal); poner(ch.gCanal, cn, cn.map(x => B.canal[x].ventas), COL.slice(0, cn.length));
+  const ct = Object.keys(B.categoria); poner(ch.gCat, ct, ct.map(x => B.categoria[x].ventas), COL[3]);
+  const pr = Object.keys(B.top_productos); poner(ch.gProd, pr, pr.map(x => B.top_productos[x].ventas), COL[1]);
+  poner(ch.gRfm, SEG, SEG.map(s => B.rfm[s] || 0), COL.slice(0, 5));
+}
+sel.addEventListener('change', actualizar);
+actualizar();
+</script>
+</body>
+</html>

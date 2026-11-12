@@ -1,0 +1,2989 @@
+{
+ "generado": "2026-11-12",
+ "calidad": {
+  "filas_originales": 3000,
+  "vacios_por_columna": {
+   "id_pedido": 0,
+   "fecha": 0,
+   "id_cliente": 0,
+   "region": 0,
+   "ciudad": 0,
+   "canal": 0,
+   "categoria": 0,
+   "producto": 0,
+   "unidades": 10,
+   "precio_unitario": 10,
+   "descuento_pct": 0,
+   "costo_unitario": 0
+  },
+  "duplicados_exactos": 15,
+  "unidades_negativas_o_cero": 3,
+  "fechas_mal_formato": [
+   "2025.08.21",
+   "28/09/2025"
+  ],
+  "eliminadas_por_motivo": {
+   "duplicado exacto (se conserva 1 copia)": 15,
+   "unidades o precio_unitario vacío": 20,
+   "unidades negativas o cero": 3
+  },
+  "fechas_corregidas": [
+   {
+    "id_pedido": "PED-01769",
+    "original": "2025.08.21",
+    "corregida": "2025-08-21"
+   },
+   {
+    "id_pedido": "PED-02058",
+    "original": "28/09/2025",
+    "corregida": "2025-09-28"
+   }
+  ],
+  "filas_finales": 2962,
+  "filas_eliminadas_total": 38,
+  "ids_pedido_unicos_finales": 2962
+ },
+ "kpis": {
+  "ventas_netas": 79717.57,
+  "costo_total": 52003.0,
+  "margen_bruto": 27714.57,
+  "margen_pct": 34.77,
+  "pedidos": 2962,
+  "ticket_promedio": 26.91,
+  "clientes_activos": 380,
+  "unidades": 24236
+ },
+ "mensual": [
+  {
+   "mes": 1,
+   "nombre": "Ene",
+   "ventas": 5977.5,
+   "margen_pct": 34.7,
+   "pedidos": 207,
+   "crecimiento_pct": null
+  },
+  {
+   "mes": 2,
+   "nombre": "Feb",
+   "ventas": 5117.67,
+   "margen_pct": 35.16,
+   "pedidos": 185,
+   "crecimiento_pct": -14.38
+  },
+  {
+   "mes": 3,
+   "nombre": "Mar",
+   "ventas": 6312.51,
+   "margen_pct": 34.72,
+   "pedidos": 209,
+   "crecimiento_pct": 23.35
+  },
+  {
+   "mes": 4,
+   "nombre": "Abr",
+   "ventas": 5572.76,
+   "margen_pct": 35.69,
+   "pedidos": 204,
+   "crecimiento_pct": -11.72
+  },
+  {
+   "mes": 5,
+   "nombre": "May",
+   "ventas": 9371.87,
+   "margen_pct": 35.44,
+   "pedidos": 324,
+   "crecimiento_pct": 68.17
+  },
+  {
+   "mes": 6,
+   "nombre": "Jun",
+   "ventas": 6149.56,
+   "margen_pct": 34.83,
+   "pedidos": 233,
+   "crecimiento_pct": -34.38
+  },
+  {
+   "mes": 7,
+   "nombre": "Jul",
+   "ventas": 6038.12,
+   "margen_pct": 34.16,
+   "pedidos": 232,
+   "crecimiento_pct": -1.81
+  },
+  {
+   "mes": 8,
+   "nombre": "Ago",
+   "ventas": 6056.22,
+   "margen_pct": 35.44,
+   "pedidos": 231,
+   "crecimiento_pct": 0.3
+  },
+  {
+   "mes": 9,
+   "nombre": "Sep",
+   "ventas": 6559.76,
+   "margen_pct": 34.02,
+   "pedidos": 233,
+   "crecimiento_pct": 8.31
+  },
+  {
+   "mes": 10,
+   "nombre": "Oct",
+   "ventas": 6274.72,
+   "margen_pct": 34.4,
+   "pedidos": 244,
+   "crecimiento_pct": -4.35
+  },
+  {
+   "mes": 11,
+   "nombre": "Nov",
+   "ventas": 6253.38,
+   "margen_pct": 34.11,
+   "pedidos": 267,
+   "crecimiento_pct": -0.34
+  },
+  {
+   "mes": 12,
+   "nombre": "Dic",
+   "ventas": 10033.5,
+   "margen_pct": 34.54,
+   "pedidos": 393,
+   "crecimiento_pct": 60.45
+  }
+ ],
+ "region": {
+  "Costa": {
+   "ventas": 37394.03,
+   "margen": 12981.12,
+   "margen_pct": 34.71,
+   "participacion_pct": 46.91,
+   "pedidos": 1379,
+   "unidades": 11477
+  },
+  "Sierra": {
+   "ventas": 31871.46,
+   "margen": 11207.36,
+   "margen_pct": 35.16,
+   "participacion_pct": 39.98,
+   "pedidos": 1214,
+   "unidades": 9679
+  },
+  "Amazonía": {
+   "ventas": 7465.31,
+   "margen": 2583.96,
+   "margen_pct": 34.61,
+   "participacion_pct": 9.36,
+   "pedidos": 272,
+   "unidades": 2254
+  },
+  "Insular": {
+   "ventas": 2986.78,
+   "margen": 942.13,
+   "margen_pct": 31.54,
+   "participacion_pct": 3.75,
+   "pedidos": 97,
+   "unidades": 826
+  }
+ },
+ "ciudad": {
+  "Manta": {
+   "ventas": 16008.63,
+   "margen": 5550.98,
+   "margen_pct": 34.67,
+   "participacion_pct": 20.08,
+   "pedidos": 567,
+   "unidades": 4744
+  },
+  "Quito": {
+   "ventas": 14975.57,
+   "margen": 5188.87,
+   "margen_pct": 34.65,
+   "participacion_pct": 18.79,
+   "pedidos": 548,
+   "unidades": 4455
+  },
+  "Machala": {
+   "ventas": 12934.92,
+   "margen": 4460.27,
+   "margen_pct": 34.48,
+   "participacion_pct": 16.23,
+   "pedidos": 483,
+   "unidades": 4103
+  },
+  "Cuenca": {
+   "ventas": 8597.37,
+   "margen": 3029.92,
+   "margen_pct": 35.24,
+   "participacion_pct": 10.78,
+   "pedidos": 370,
+   "unidades": 2703
+  },
+  "Guayaquil": {
+   "ventas": 8450.48,
+   "margen": 2969.88,
+   "margen_pct": 35.14,
+   "participacion_pct": 10.6,
+   "pedidos": 329,
+   "unidades": 2630
+  },
+  "Ambato": {
+   "ventas": 8298.52,
+   "margen": 2988.57,
+   "margen_pct": 36.01,
+   "participacion_pct": 10.41,
+   "pedidos": 296,
+   "unidades": 2521
+  },
+  "Tena": {
+   "ventas": 3866.54,
+   "margen": 1290.34,
+   "margen_pct": 33.37,
+   "participacion_pct": 4.85,
+   "pedidos": 139,
+   "unidades": 1125
+  },
+  "Puyo": {
+   "ventas": 3598.77,
+   "margen": 1293.62,
+   "margen_pct": 35.95,
+   "participacion_pct": 4.51,
+   "pedidos": 133,
+   "unidades": 1129
+  },
+  "Puerto Ayora": {
+   "ventas": 2986.78,
+   "margen": 942.13,
+   "margen_pct": 31.54,
+   "participacion_pct": 3.75,
+   "pedidos": 97,
+   "unidades": 826
+  }
+ },
+ "canal": {
+  "Tienda física": {
+   "ventas": 36563.56,
+   "margen": 14230.71,
+   "margen_pct": 38.92,
+   "participacion_pct": 45.87,
+   "pedidos": 1664,
+   "unidades": 10393
+  },
+  "Mayorista": {
+   "ventas": 30458.4,
+   "margen": 8898.7,
+   "margen_pct": 29.22,
+   "participacion_pct": 38.21,
+   "pedidos": 437,
+   "unidades": 10271
+  },
+  "Online": {
+   "ventas": 12695.61,
+   "margen": 4585.16,
+   "margen_pct": 36.12,
+   "participacion_pct": 15.93,
+   "pedidos": 861,
+   "unidades": 3572
+  }
+ },
+ "categoria": {
+  "Limpieza": {
+   "ventas": 17668.24,
+   "margen": 5735.04,
+   "margen_pct": 32.46,
+   "participacion_pct": 22.16,
+   "pedidos": 591,
+   "unidades": 5055
+  },
+  "Bebidas": {
+   "ventas": 17580.88,
+   "margen": 5963.28,
+   "margen_pct": 33.92,
+   "participacion_pct": 22.05,
+   "pedidos": 755,
+   "unidades": 6772
+  },
+  "Hogar": {
+   "ventas": 17448.46,
+   "margen": 5498.46,
+   "margen_pct": 31.51,
+   "participacion_pct": 21.89,
+   "pedidos": 226,
+   "unidades": 611
+  },
+  "Cuidado personal": {
+   "ventas": 15843.67,
+   "margen": 5995.27,
+   "margen_pct": 37.84,
+   "participacion_pct": 19.87,
+   "pedidos": 634,
+   "unidades": 5468
+  },
+  "Snacks": {
+   "ventas": 11176.32,
+   "margen": 4522.52,
+   "margen_pct": 40.47,
+   "participacion_pct": 14.02,
+   "pedidos": 756,
+   "unidades": 6330
+  }
+ },
+ "producto": {
+  "Detergente 2kg": {
+   "ventas": 11605.11,
+   "margen": 3503.51,
+   "margen_pct": 30.19,
+   "participacion_pct": 14.56,
+   "pedidos": 219,
+   "unidades": 1976
+  },
+  "Agua mineral 6x1L": {
+   "ventas": 8402.94,
+   "margen": 2793.84,
+   "margen_pct": 33.25,
+   "participacion_pct": 10.54,
+   "pedidos": 285,
+   "unidades": 2671
+  },
+  "Shampoo 400ml": {
+   "ventas": 7856.46,
+   "margen": 2937.06,
+   "margen_pct": 37.38,
+   "participacion_pct": 9.86,
+   "pedidos": 187,
+   "unidades": 1822
+  },
+  "Set de ollas": {
+   "ventas": 7654.05,
+   "margen": 2146.05,
+   "margen_pct": 28.04,
+   "participacion_pct": 9.6,
+   "pedidos": 58,
+   "unidades": 153
+  },
+  "Juego de toallas": {
+   "ventas": 5174.24,
+   "margen": 1856.24,
+   "margen_pct": 35.87,
+   "participacion_pct": 6.49,
+   "pedidos": 111,
+   "unidades": 316
+  },
+  "Jugo de naranja 1L": {
+   "ventas": 4884.7,
+   "margen": 1754.3,
+   "margen_pct": 35.91,
+   "participacion_pct": 6.13,
+   "pedidos": 289,
+   "unidades": 2408
+  },
+  "Vajilla 12 piezas": {
+   "ventas": 4620.16,
+   "margen": 1496.16,
+   "margen_pct": 32.38,
+   "participacion_pct": 5.8,
+   "pedidos": 57,
+   "unidades": 142
+  },
+  "Papas fritas 200g": {
+   "ventas": 4313.72,
+   "margen": 1702.07,
+   "margen_pct": 39.46,
+   "participacion_pct": 5.41,
+   "pedidos": 260,
+   "unidades": 2271
+  },
+  "Jabón de tocador x3": {
+   "ventas": 4311.67,
+   "margen": 1662.87,
+   "margen_pct": 38.57,
+   "participacion_pct": 5.41,
+   "pedidos": 229,
+   "unidades": 1892
+  },
+  "Gaseosa cola 3L": {
+   "ventas": 4293.24,
+   "margen": 1415.14,
+   "margen_pct": 32.96,
+   "participacion_pct": 5.39,
+   "pedidos": 181,
+   "unidades": 1693
+  },
+  "Desinfectante multiuso": {
+   "ventas": 3702.21,
+   "margen": 1338.61,
+   "margen_pct": 36.16,
+   "participacion_pct": 4.64,
+   "pedidos": 156,
+   "unidades": 1244
+  },
+  "Crema dental 150g": {
+   "ventas": 3675.54,
+   "margen": 1395.34,
+   "margen_pct": 37.96,
+   "participacion_pct": 4.61,
+   "pedidos": 218,
+   "unidades": 1754
+  },
+  "Galletas integrales": {
+   "ventas": 3622.04,
+   "margen": 1533.94,
+   "margen_pct": 42.35,
+   "participacion_pct": 4.54,
+   "pedidos": 271,
+   "unidades": 2198
+  },
+  "Chocolate 100g": {
+   "ventas": 3240.55,
+   "margen": 1286.5,
+   "margen_pct": 39.7,
+   "participacion_pct": 4.07,
+   "pedidos": 225,
+   "unidades": 1861
+  },
+  "Cloro 1L": {
+   "ventas": 2360.92,
+   "margen": 892.92,
+   "margen_pct": 37.82,
+   "participacion_pct": 2.96,
+   "pedidos": 216,
+   "unidades": 1835
+  }
+ },
+ "top5": [
+  [
+   "Detergente 2kg",
+   {
+    "ventas": 11605.11,
+    "margen": 3503.51,
+    "margen_pct": 30.19,
+    "participacion_pct": 14.56,
+    "pedidos": 219,
+    "unidades": 1976
+   }
+  ],
+  [
+   "Agua mineral 6x1L",
+   {
+    "ventas": 8402.94,
+    "margen": 2793.84,
+    "margen_pct": 33.25,
+    "participacion_pct": 10.54,
+    "pedidos": 285,
+    "unidades": 2671
+   }
+  ],
+  [
+   "Shampoo 400ml",
+   {
+    "ventas": 7856.46,
+    "margen": 2937.06,
+    "margen_pct": 37.38,
+    "participacion_pct": 9.86,
+    "pedidos": 187,
+    "unidades": 1822
+   }
+  ],
+  [
+   "Set de ollas",
+   {
+    "ventas": 7654.05,
+    "margen": 2146.05,
+    "margen_pct": 28.04,
+    "participacion_pct": 9.6,
+    "pedidos": 58,
+    "unidades": 153
+   }
+  ],
+  [
+   "Juego de toallas",
+   {
+    "ventas": 5174.24,
+    "margen": 1856.24,
+    "margen_pct": 35.87,
+    "participacion_pct": 6.49,
+    "pedidos": 111,
+    "unidades": 316
+   }
+  ]
+ ],
+ "bottom5": [
+  [
+   "Cloro 1L",
+   {
+    "ventas": 2360.92,
+    "margen": 892.92,
+    "margen_pct": 37.82,
+    "participacion_pct": 2.96,
+    "pedidos": 216,
+    "unidades": 1835
+   }
+  ],
+  [
+   "Chocolate 100g",
+   {
+    "ventas": 3240.55,
+    "margen": 1286.5,
+    "margen_pct": 39.7,
+    "participacion_pct": 4.07,
+    "pedidos": 225,
+    "unidades": 1861
+   }
+  ],
+  [
+   "Galletas integrales",
+   {
+    "ventas": 3622.04,
+    "margen": 1533.94,
+    "margen_pct": 42.35,
+    "participacion_pct": 4.54,
+    "pedidos": 271,
+    "unidades": 2198
+   }
+  ],
+  [
+   "Crema dental 150g",
+   {
+    "ventas": 3675.54,
+    "margen": 1395.34,
+    "margen_pct": 37.96,
+    "participacion_pct": 4.61,
+    "pedidos": 218,
+    "unidades": 1754
+   }
+  ],
+  [
+   "Desinfectante multiuso",
+   {
+    "ventas": 3702.21,
+    "margen": 1338.61,
+    "margen_pct": 36.16,
+    "participacion_pct": 4.64,
+    "pedidos": 156,
+    "unidades": 1244
+   }
+  ]
+ ],
+ "semestres": {
+  "region": {
+   "Insular": {
+    "S1": 1156.45,
+    "S2": 1830.33,
+    "variacion_pct": 58.27
+   },
+   "Amazonía": {
+    "S1": 3120.97,
+    "S2": 4344.34,
+    "variacion_pct": 39.2
+   },
+   "Sierra": {
+    "S1": 15613.44,
+    "S2": 16258.02,
+    "variacion_pct": 4.13
+   },
+   "Costa": {
+    "S1": 18611.02,
+    "S2": 18783.0,
+    "variacion_pct": 0.92
+   }
+  },
+  "canal": {
+   "Online": {
+    "S1": 3605.18,
+    "S2": 9090.43,
+    "variacion_pct": 152.15
+   },
+   "Mayorista": {
+    "S1": 14165.07,
+    "S2": 16293.33,
+    "variacion_pct": 15.02
+   },
+   "Tienda física": {
+    "S1": 20731.62,
+    "S2": 15831.94,
+    "variacion_pct": -23.63
+   }
+  },
+  "categoria": {
+   "Hogar": {
+    "S1": 7247.6,
+    "S2": 10200.87,
+    "variacion_pct": 40.75
+   },
+   "Snacks": {
+    "S1": 4958.61,
+    "S2": 6217.7,
+    "variacion_pct": 25.39
+   },
+   "Bebidas": {
+    "S1": 9028.08,
+    "S2": 8552.8,
+    "variacion_pct": -5.26
+   },
+   "Limpieza": {
+    "S1": 9074.7,
+    "S2": 8593.54,
+    "variacion_pct": -5.3
+   },
+   "Cuidado personal": {
+    "S1": 8192.88,
+    "S2": 7650.79,
+    "variacion_pct": -6.62
+   }
+  },
+  "producto": {
+   "Vajilla 12 piezas": {
+    "S1": 1826.29,
+    "S2": 2793.88,
+    "variacion_pct": 52.98
+   },
+   "Chocolate 100g": {
+    "S1": 1311.03,
+    "S2": 1929.52,
+    "variacion_pct": 47.18
+   },
+   "Juego de toallas": {
+    "S1": 2135.98,
+    "S2": 3038.27,
+    "variacion_pct": 42.24
+   },
+   "Agua mineral 6x1L": {
+    "S1": 3507.73,
+    "S2": 4895.21,
+    "variacion_pct": 39.56
+   },
+   "Jugo de naranja 1L": {
+    "S1": 2094.95,
+    "S2": 2789.75,
+    "variacion_pct": 33.17
+   },
+   "Set de ollas": {
+    "S1": 3285.33,
+    "S2": 4368.72,
+    "variacion_pct": 32.98
+   },
+   "Crema dental 150g": {
+    "S1": 1619.54,
+    "S2": 2055.99,
+    "variacion_pct": 26.95
+   },
+   "Papas fritas 200g": {
+    "S1": 1948.26,
+    "S2": 2365.46,
+    "variacion_pct": 21.41
+   },
+   "Galletas integrales": {
+    "S1": 1699.32,
+    "S2": 1922.72,
+    "variacion_pct": 13.15
+   },
+   "Desinfectante multiuso": {
+    "S1": 1826.65,
+    "S2": 1875.56,
+    "variacion_pct": 2.68
+   },
+   "Cloro 1L": {
+    "S1": 1213.78,
+    "S2": 1147.14,
+    "variacion_pct": -5.49
+   },
+   "Detergente 2kg": {
+    "S1": 6034.27,
+    "S2": 5570.84,
+    "variacion_pct": -7.68
+   },
+   "Shampoo 400ml": {
+    "S1": 4235.29,
+    "S2": 3621.17,
+    "variacion_pct": -14.5
+   },
+   "Jabón de tocador x3": {
+    "S1": 2338.04,
+    "S2": 1973.63,
+    "variacion_pct": -15.59
+   },
+   "Gaseosa cola 3L": {
+    "S1": 3425.4,
+    "S2": 867.84,
+    "variacion_pct": -74.66
+   }
+  }
+ },
+ "semestre_total": {
+  "S1": 38501.88,
+  "S2": 41215.69,
+  "variacion_pct": 7.05
+ },
+ "canal_por_region": {
+  "Costa": {
+   "Tienda física": {
+    "ventas": 17319.33,
+    "margen": 6770.08,
+    "margen_pct": 39.09,
+    "participacion_pct": 46.32,
+    "pedidos": 801,
+    "unidades": 4995
+   },
+   "Mayorista": {
+    "ventas": 15023.2,
+    "margen": 4377.5,
+    "margen_pct": 29.14,
+    "participacion_pct": 40.18,
+    "pedidos": 208,
+    "unidades": 4956
+   },
+   "Online": {
+    "ventas": 5051.49,
+    "margen": 1833.54,
+    "margen_pct": 36.3,
+    "participacion_pct": 13.51,
+    "pedidos": 370,
+    "unidades": 1526
+   }
+  },
+  "Sierra": {
+   "Tienda física": {
+    "ventas": 15028.81,
+    "margen": 5823.61,
+    "margen_pct": 38.75,
+    "participacion_pct": 47.15,
+    "pedidos": 675,
+    "unidades": 4197
+   },
+   "Mayorista": {
+    "ventas": 11285.03,
+    "margen": 3378.68,
+    "margen_pct": 29.94,
+    "participacion_pct": 35.41,
+    "pedidos": 169,
+    "unidades": 3942
+   },
+   "Online": {
+    "ventas": 5557.62,
+    "margen": 2005.07,
+    "margen_pct": 36.08,
+    "participacion_pct": 17.44,
+    "pedidos": 370,
+    "unidades": 1540
+   }
+  },
+  "Amazonía": {
+   "Tienda física": {
+    "ventas": 3207.45,
+    "margen": 1250.8,
+    "margen_pct": 39.0,
+    "participacion_pct": 42.96,
+    "pedidos": 142,
+    "unidades": 919
+   },
+   "Mayorista": {
+    "ventas": 2578.12,
+    "margen": 739.07,
+    "margen_pct": 28.67,
+    "participacion_pct": 34.53,
+    "pedidos": 40,
+    "unidades": 964
+   },
+   "Online": {
+    "ventas": 1679.74,
+    "margen": 594.09,
+    "margen_pct": 35.37,
+    "participacion_pct": 22.5,
+    "pedidos": 90,
+    "unidades": 371
+   }
+  },
+  "Insular": {
+   "Mayorista": {
+    "ventas": 1572.05,
+    "margen": 403.45,
+    "margen_pct": 25.66,
+    "participacion_pct": 52.63,
+    "pedidos": 20,
+    "unidades": 409
+   },
+   "Tienda física": {
+    "ventas": 1007.96,
+    "margen": 386.21,
+    "margen_pct": 38.32,
+    "participacion_pct": 33.75,
+    "pedidos": 46,
+    "unidades": 282
+   },
+   "Online": {
+    "ventas": 406.76,
+    "margen": 152.47,
+    "margen_pct": 37.48,
+    "participacion_pct": 13.62,
+    "pedidos": 31,
+    "unidades": 135
+   }
+  }
+ },
+ "mensual_por_region": {
+  "Costa": [
+   {
+    "mes": 1,
+    "nombre": "Ene",
+    "ventas": 2788.19,
+    "margen_pct": 34.84,
+    "pedidos": 97,
+    "crecimiento_pct": null
+   },
+   {
+    "mes": 2,
+    "nombre": "Feb",
+    "ventas": 2590.94,
+    "margen_pct": 35.91,
+    "pedidos": 96,
+    "crecimiento_pct": -7.07
+   },
+   {
+    "mes": 3,
+    "nombre": "Mar",
+    "ventas": 2938.92,
+    "margen_pct": 34.08,
+    "pedidos": 96,
+    "crecimiento_pct": 13.43
+   },
+   {
+    "mes": 4,
+    "nombre": "Abr",
+    "ventas": 3022.7,
+    "margen_pct": 35.72,
+    "pedidos": 104,
+    "crecimiento_pct": 2.85
+   },
+   {
+    "mes": 5,
+    "nombre": "May",
+    "ventas": 3748.14,
+    "margen_pct": 36.68,
+    "pedidos": 147,
+    "crecimiento_pct": 24.0
+   },
+   {
+    "mes": 6,
+    "nombre": "Jun",
+    "ventas": 3522.14,
+    "margen_pct": 34.32,
+    "pedidos": 119,
+    "crecimiento_pct": -6.03
+   },
+   {
+    "mes": 7,
+    "nombre": "Jul",
+    "ventas": 2336.69,
+    "margen_pct": 36.05,
+    "pedidos": 110,
+    "crecimiento_pct": -33.66
+   },
+   {
+    "mes": 8,
+    "nombre": "Ago",
+    "ventas": 2983.13,
+    "margen_pct": 35.3,
+    "pedidos": 114,
+    "crecimiento_pct": 27.66
+   },
+   {
+    "mes": 9,
+    "nombre": "Sep",
+    "ventas": 3277.68,
+    "margen_pct": 34.57,
+    "pedidos": 117,
+    "crecimiento_pct": 9.87
+   },
+   {
+    "mes": 10,
+    "nombre": "Oct",
+    "ventas": 2878.35,
+    "margen_pct": 34.68,
+    "pedidos": 106,
+    "crecimiento_pct": -12.18
+   },
+   {
+    "mes": 11,
+    "nombre": "Nov",
+    "ventas": 2997.6,
+    "margen_pct": 32.35,
+    "pedidos": 109,
+    "crecimiento_pct": 4.14
+   },
+   {
+    "mes": 12,
+    "nombre": "Dic",
+    "ventas": 4309.55,
+    "margen_pct": 32.9,
+    "pedidos": 164,
+    "crecimiento_pct": 43.77
+   }
+  ],
+  "Sierra": [
+   {
+    "mes": 1,
+    "nombre": "Ene",
+    "ventas": 2703.67,
+    "margen_pct": 34.84,
+    "pedidos": 99,
+    "crecimiento_pct": null
+   },
+   {
+    "mes": 2,
+    "nombre": "Feb",
+    "ventas": 1955.49,
+    "margen_pct": 35.39,
+    "pedidos": 73,
+    "crecimiento_pct": -27.67
+   },
+   {
+    "mes": 3,
+    "nombre": "Mar",
+    "ventas": 2789.53,
+    "margen_pct": 35.49,
+    "pedidos": 96,
+    "crecimiento_pct": 42.65
+   },
+   {
+    "mes": 4,
+    "nombre": "Abr",
+    "ventas": 1960.87,
+    "margen_pct": 36.18,
+    "pedidos": 78,
+    "crecimiento_pct": -29.71
+   },
+   {
+    "mes": 5,
+    "nombre": "May",
+    "ventas": 4511.72,
+    "margen_pct": 34.73,
+    "pedidos": 138,
+    "crecimiento_pct": 130.09
+   },
+   {
+    "mes": 6,
+    "nombre": "Jun",
+    "ventas": 1692.15,
+    "margen_pct": 35.71,
+    "pedidos": 76,
+    "crecimiento_pct": -62.49
+   },
+   {
+    "mes": 7,
+    "nombre": "Jul",
+    "ventas": 2541.06,
+    "margen_pct": 34.34,
+    "pedidos": 95,
+    "crecimiento_pct": 50.17
+   },
+   {
+    "mes": 8,
+    "nombre": "Ago",
+    "ventas": 2270.02,
+    "margen_pct": 35.77,
+    "pedidos": 86,
+    "crecimiento_pct": -10.67
+   },
+   {
+    "mes": 9,
+    "nombre": "Sep",
+    "ventas": 2507.03,
+    "margen_pct": 33.16,
+    "pedidos": 89,
+    "crecimiento_pct": 10.44
+   },
+   {
+    "mes": 10,
+    "nombre": "Oct",
+    "ventas": 2168.93,
+    "margen_pct": 36.8,
+    "pedidos": 98,
+    "crecimiento_pct": -13.49
+   },
+   {
+    "mes": 11,
+    "nombre": "Nov",
+    "ventas": 2485.56,
+    "margen_pct": 35.13,
+    "pedidos": 118,
+    "crecimiento_pct": 14.6
+   },
+   {
+    "mes": 12,
+    "nombre": "Dic",
+    "ventas": 4285.42,
+    "margen_pct": 35.37,
+    "pedidos": 168,
+    "crecimiento_pct": 72.41
+   }
+  ],
+  "Amazonía": [
+   {
+    "mes": 1,
+    "nombre": "Ene",
+    "ventas": 365.87,
+    "margen_pct": 32.43,
+    "pedidos": 7,
+    "crecimiento_pct": null
+   },
+   {
+    "mes": 2,
+    "nombre": "Feb",
+    "ventas": 328.22,
+    "margen_pct": 30.08,
+    "pedidos": 6,
+    "crecimiento_pct": -10.29
+   },
+   {
+    "mes": 3,
+    "nombre": "Mar",
+    "ventas": 527.48,
+    "margen_pct": 33.26,
+    "pedidos": 13,
+    "crecimiento_pct": 60.71
+   },
+   {
+    "mes": 4,
+    "nombre": "Abr",
+    "ventas": 372.5,
+    "margen_pct": 34.63,
+    "pedidos": 15,
+    "crecimiento_pct": -29.38
+   },
+   {
+    "mes": 5,
+    "nombre": "May",
+    "ventas": 693.51,
+    "margen_pct": 34.62,
+    "pedidos": 27,
+    "crecimiento_pct": 86.18
+   },
+   {
+    "mes": 6,
+    "nombre": "Jun",
+    "ventas": 833.4,
+    "margen_pct": 34.86,
+    "pedidos": 31,
+    "crecimiento_pct": 20.17
+   },
+   {
+    "mes": 7,
+    "nombre": "Jul",
+    "ventas": 807.74,
+    "margen_pct": 28.14,
+    "pedidos": 17,
+    "crecimiento_pct": -3.08
+   },
+   {
+    "mes": 8,
+    "nombre": "Ago",
+    "ventas": 594.12,
+    "margen_pct": 36.54,
+    "pedidos": 25,
+    "crecimiento_pct": -26.45
+   },
+   {
+    "mes": 9,
+    "nombre": "Sep",
+    "ventas": 651.78,
+    "margen_pct": 35.44,
+    "pedidos": 21,
+    "crecimiento_pct": 9.7
+   },
+   {
+    "mes": 10,
+    "nombre": "Oct",
+    "ventas": 661.84,
+    "margen_pct": 36.05,
+    "pedidos": 29,
+    "crecimiento_pct": 1.54
+   },
+   {
+    "mes": 11,
+    "nombre": "Nov",
+    "ventas": 626.06,
+    "margen_pct": 36.81,
+    "pedidos": 30,
+    "crecimiento_pct": -5.41
+   },
+   {
+    "mes": 12,
+    "nombre": "Dic",
+    "ventas": 1002.81,
+    "margen_pct": 38.61,
+    "pedidos": 51,
+    "crecimiento_pct": 60.18
+   }
+  ],
+  "Insular": [
+   {
+    "mes": 1,
+    "nombre": "Ene",
+    "ventas": 119.78,
+    "margen_pct": 35.38,
+    "pedidos": 4,
+    "crecimiento_pct": null
+   },
+   {
+    "mes": 2,
+    "nombre": "Feb",
+    "ventas": 243.03,
+    "margen_pct": 32.13,
+    "pedidos": 10,
+    "crecimiento_pct": 102.9
+   },
+   {
+    "mes": 3,
+    "nombre": "Mar",
+    "ventas": 56.59,
+    "margen_pct": 42.92,
+    "pedidos": 4,
+    "crecimiento_pct": -76.72
+   },
+   {
+    "mes": 4,
+    "nombre": "Abr",
+    "ventas": 216.69,
+    "margen_pct": 32.69,
+    "pedidos": 7,
+    "crecimiento_pct": 282.94
+   },
+   {
+    "mes": 5,
+    "nombre": "May",
+    "ventas": 418.5,
+    "margen_pct": 33.36,
+    "pedidos": 12,
+    "crecimiento_pct": 93.13
+   },
+   {
+    "mes": 6,
+    "nombre": "Jun",
+    "ventas": 101.87,
+    "margen_pct": 37.37,
+    "pedidos": 7,
+    "crecimiento_pct": -75.66
+   },
+   {
+    "mes": 7,
+    "nombre": "Jul",
+    "ventas": 352.64,
+    "margen_pct": 34.2,
+    "pedidos": 10,
+    "crecimiento_pct": 246.18
+   },
+   {
+    "mes": 8,
+    "nombre": "Ago",
+    "ventas": 208.95,
+    "margen_pct": 30.56,
+    "pedidos": 6,
+    "crecimiento_pct": -40.75
+   },
+   {
+    "mes": 9,
+    "nombre": "Sep",
+    "ventas": 123.26,
+    "margen_pct": 29.74,
+    "pedidos": 6,
+    "crecimiento_pct": -41.01
+   },
+   {
+    "mes": 10,
+    "nombre": "Oct",
+    "ventas": 565.59,
+    "margen_pct": 21.88,
+    "pedidos": 11,
+    "crecimiento_pct": 358.84
+   },
+   {
+    "mes": 11,
+    "nombre": "Nov",
+    "ventas": 144.16,
+    "margen_pct": 41.35,
+    "pedidos": 10,
+    "crecimiento_pct": -74.51
+   },
+   {
+    "mes": 12,
+    "nombre": "Dic",
+    "ventas": 435.72,
+    "margen_pct": 33.15,
+    "pedidos": 10,
+    "crecimiento_pct": 202.24
+   }
+  ]
+ },
+ "rfm_segmentos": {
+  "Campeones": {
+   "clientes": 87,
+   "ventas": 47893.56,
+   "participacion_pct": 60.08,
+   "recencia_media": 9.6,
+   "frecuencia_media": 20.85,
+   "accion": "Programa VIP: acceso anticipado, beneficios por volumen y pedirles referidos."
+  },
+  "Leales": {
+   "clientes": 62,
+   "ventas": 10265.53,
+   "participacion_pct": 12.88,
+   "recencia_media": 32.26,
+   "frecuencia_media": 6.21,
+   "accion": "Venta cruzada de categorías que aún no compran y puntos de fidelidad."
+  },
+  "Potenciales": {
+   "clientes": 77,
+   "ventas": 6547.32,
+   "participacion_pct": 8.21,
+   "recencia_media": 24.09,
+   "frecuencia_media": 3.14,
+   "accion": "Incentivar la segunda/tercera compra con cupón de recompra a 30 días."
+  },
+  "En riesgo": {
+   "clientes": 89,
+   "ventas": 11689.87,
+   "participacion_pct": 14.66,
+   "recencia_media": 101.28,
+   "frecuencia_media": 4.38,
+   "accion": "Contacto proactivo del vendedor y oferta personalizada de reactivación."
+  },
+  "Perdidos": {
+   "clientes": 65,
+   "ventas": 3321.28,
+   "participacion_pct": 4.17,
+   "recencia_media": 236.49,
+   "frecuencia_media": 2.02,
+   "accion": "Campaña de bajo costo (correo/WhatsApp); no invertir descuentos altos."
+  }
+ },
+ "rfm_distribucion": {
+  "R": {
+   "1": 76,
+   "2": 78,
+   "3": 78,
+   "4": 72,
+   "5": 76
+  },
+  "F": {
+   "1": 86,
+   "2": 99,
+   "3": 50,
+   "4": 83,
+   "5": 62
+  },
+  "M": {
+   "1": 76,
+   "2": 76,
+   "3": 76,
+   "4": 76,
+   "5": 76
+  }
+ },
+ "rfm_total_clientes": 380,
+ "rfm_por_region": {
+  "Costa": {
+   "Campeones": 41,
+   "Perdidos": 22,
+   "Leales": 30,
+   "En riesgo": 49,
+   "Potenciales": 23
+  },
+  "Sierra": {
+   "Potenciales": 32,
+   "Leales": 29,
+   "Perdidos": 31,
+   "En riesgo": 26,
+   "Campeones": 37
+  },
+  "Amazonía": {
+   "En riesgo": 11,
+   "Campeones": 6,
+   "Potenciales": 16,
+   "Perdidos": 1,
+   "Leales": 3
+  },
+  "Insular": {
+   "Perdidos": 11,
+   "Potenciales": 6,
+   "En riesgo": 3,
+   "Campeones": 3
+  }
+ },
+ "descuentos": {
+  "lineas_afectadas": 211,
+  "ventas_afectadas": 11402.35,
+  "margen_afectado": 2670.7,
+  "margen_pct_afectadas": 23.42,
+  "base": {
+   "ventas": 79717.57,
+   "margen": 27714.57,
+   "margen_pct": 34.77
+  },
+  "A_tope_15": {
+   "ventas": 80783.97,
+   "margen": 28780.97,
+   "margen_pct": 35.63,
+   "delta_margen": 1066.4
+  },
+  "B_se_pierden": {
+   "ventas": 68315.22,
+   "margen": 25043.87,
+   "margen_pct": 36.66,
+   "delta_margen": -2670.7
+  },
+  "por_descuento": {
+   "0": {
+    "ventas": 27296.76,
+    "margen": 11076.76,
+    "margen_pct": 40.58,
+    "participacion_pct": 34.24,
+    "pedidos": 1294,
+    "unidades": 7438
+   },
+   "10": {
+    "ventas": 17772.73,
+    "margen": 6074.78,
+    "margen_pct": 34.18,
+    "participacion_pct": 22.29,
+    "pedidos": 574,
+    "unidades": 5761
+   },
+   "5": {
+    "ventas": 12073.5,
+    "margen": 4493.5,
+    "margen_pct": 37.22,
+    "participacion_pct": 15.15,
+    "pedidos": 634,
+    "unidades": 3435
+   },
+   "15": {
+    "ventas": 11172.22,
+    "margen": 3398.82,
+    "margen_pct": 30.42,
+    "participacion_pct": 14.01,
+    "pedidos": 249,
+    "unidades": 3845
+   },
+   "20": {
+    "ventas": 6408.2,
+    "margen": 1657.2,
+    "margen_pct": 25.86,
+    "participacion_pct": 8.04,
+    "pedidos": 142,
+    "unidades": 2158
+   },
+   "25": {
+    "ventas": 4994.15,
+    "margen": 1013.5,
+    "margen_pct": 20.29,
+    "participacion_pct": 6.26,
+    "pedidos": 69,
+    "unidades": 1599
+   }
+  }
+ },
+ "dashboard": {
+  "Todas": {
+   "kpis": {
+    "ventas_netas": 79717.57,
+    "costo_total": 52003.0,
+    "margen_bruto": 27714.57,
+    "margen_pct": 34.77,
+    "pedidos": 2962,
+    "ticket_promedio": 26.91,
+    "clientes_activos": 380,
+    "unidades": 24236
+   },
+   "mensual": [
+    {
+     "mes": 1,
+     "nombre": "Ene",
+     "ventas": 5977.5,
+     "margen_pct": 34.7,
+     "pedidos": 207,
+     "crecimiento_pct": null
+    },
+    {
+     "mes": 2,
+     "nombre": "Feb",
+     "ventas": 5117.67,
+     "margen_pct": 35.16,
+     "pedidos": 185,
+     "crecimiento_pct": -14.38
+    },
+    {
+     "mes": 3,
+     "nombre": "Mar",
+     "ventas": 6312.51,
+     "margen_pct": 34.72,
+     "pedidos": 209,
+     "crecimiento_pct": 23.35
+    },
+    {
+     "mes": 4,
+     "nombre": "Abr",
+     "ventas": 5572.76,
+     "margen_pct": 35.69,
+     "pedidos": 204,
+     "crecimiento_pct": -11.72
+    },
+    {
+     "mes": 5,
+     "nombre": "May",
+     "ventas": 9371.87,
+     "margen_pct": 35.44,
+     "pedidos": 324,
+     "crecimiento_pct": 68.17
+    },
+    {
+     "mes": 6,
+     "nombre": "Jun",
+     "ventas": 6149.56,
+     "margen_pct": 34.83,
+     "pedidos": 233,
+     "crecimiento_pct": -34.38
+    },
+    {
+     "mes": 7,
+     "nombre": "Jul",
+     "ventas": 6038.12,
+     "margen_pct": 34.16,
+     "pedidos": 232,
+     "crecimiento_pct": -1.81
+    },
+    {
+     "mes": 8,
+     "nombre": "Ago",
+     "ventas": 6056.22,
+     "margen_pct": 35.44,
+     "pedidos": 231,
+     "crecimiento_pct": 0.3
+    },
+    {
+     "mes": 9,
+     "nombre": "Sep",
+     "ventas": 6559.76,
+     "margen_pct": 34.02,
+     "pedidos": 233,
+     "crecimiento_pct": 8.31
+    },
+    {
+     "mes": 10,
+     "nombre": "Oct",
+     "ventas": 6274.72,
+     "margen_pct": 34.4,
+     "pedidos": 244,
+     "crecimiento_pct": -4.35
+    },
+    {
+     "mes": 11,
+     "nombre": "Nov",
+     "ventas": 6253.38,
+     "margen_pct": 34.11,
+     "pedidos": 267,
+     "crecimiento_pct": -0.34
+    },
+    {
+     "mes": 12,
+     "nombre": "Dic",
+     "ventas": 10033.5,
+     "margen_pct": 34.54,
+     "pedidos": 393,
+     "crecimiento_pct": 60.45
+    }
+   ],
+   "canal": {
+    "Tienda física": {
+     "ventas": 36563.56,
+     "margen": 14230.71,
+     "margen_pct": 38.92,
+     "participacion_pct": 45.87,
+     "pedidos": 1664,
+     "unidades": 10393
+    },
+    "Mayorista": {
+     "ventas": 30458.4,
+     "margen": 8898.7,
+     "margen_pct": 29.22,
+     "participacion_pct": 38.21,
+     "pedidos": 437,
+     "unidades": 10271
+    },
+    "Online": {
+     "ventas": 12695.61,
+     "margen": 4585.16,
+     "margen_pct": 36.12,
+     "participacion_pct": 15.93,
+     "pedidos": 861,
+     "unidades": 3572
+    }
+   },
+   "categoria": {
+    "Limpieza": {
+     "ventas": 17668.24,
+     "margen": 5735.04,
+     "margen_pct": 32.46,
+     "participacion_pct": 22.16,
+     "pedidos": 591,
+     "unidades": 5055
+    },
+    "Bebidas": {
+     "ventas": 17580.88,
+     "margen": 5963.28,
+     "margen_pct": 33.92,
+     "participacion_pct": 22.05,
+     "pedidos": 755,
+     "unidades": 6772
+    },
+    "Hogar": {
+     "ventas": 17448.46,
+     "margen": 5498.46,
+     "margen_pct": 31.51,
+     "participacion_pct": 21.89,
+     "pedidos": 226,
+     "unidades": 611
+    },
+    "Cuidado personal": {
+     "ventas": 15843.67,
+     "margen": 5995.27,
+     "margen_pct": 37.84,
+     "participacion_pct": 19.87,
+     "pedidos": 634,
+     "unidades": 5468
+    },
+    "Snacks": {
+     "ventas": 11176.32,
+     "margen": 4522.52,
+     "margen_pct": 40.47,
+     "participacion_pct": 14.02,
+     "pedidos": 756,
+     "unidades": 6330
+    }
+   },
+   "top_productos": {
+    "Detergente 2kg": {
+     "ventas": 11605.11,
+     "margen": 3503.51,
+     "margen_pct": 30.19,
+     "participacion_pct": 14.56,
+     "pedidos": 219,
+     "unidades": 1976
+    },
+    "Agua mineral 6x1L": {
+     "ventas": 8402.94,
+     "margen": 2793.84,
+     "margen_pct": 33.25,
+     "participacion_pct": 10.54,
+     "pedidos": 285,
+     "unidades": 2671
+    },
+    "Shampoo 400ml": {
+     "ventas": 7856.46,
+     "margen": 2937.06,
+     "margen_pct": 37.38,
+     "participacion_pct": 9.86,
+     "pedidos": 187,
+     "unidades": 1822
+    },
+    "Set de ollas": {
+     "ventas": 7654.05,
+     "margen": 2146.05,
+     "margen_pct": 28.04,
+     "participacion_pct": 9.6,
+     "pedidos": 58,
+     "unidades": 153
+    },
+    "Juego de toallas": {
+     "ventas": 5174.24,
+     "margen": 1856.24,
+     "margen_pct": 35.87,
+     "participacion_pct": 6.49,
+     "pedidos": 111,
+     "unidades": 316
+    }
+   },
+   "rfm": {
+    "Campeones": 87,
+    "Leales": 62,
+    "Potenciales": 77,
+    "En riesgo": 89,
+    "Perdidos": 65
+   }
+  },
+  "Costa": {
+   "kpis": {
+    "ventas_netas": 37394.03,
+    "costo_total": 24412.9,
+    "margen_bruto": 12981.12,
+    "margen_pct": 34.71,
+    "pedidos": 1379,
+    "ticket_promedio": 27.12,
+    "clientes_activos": 165,
+    "unidades": 11477
+   },
+   "mensual": [
+    {
+     "mes": 1,
+     "nombre": "Ene",
+     "ventas": 2788.19,
+     "margen_pct": 34.84,
+     "pedidos": 97,
+     "crecimiento_pct": null
+    },
+    {
+     "mes": 2,
+     "nombre": "Feb",
+     "ventas": 2590.94,
+     "margen_pct": 35.91,
+     "pedidos": 96,
+     "crecimiento_pct": -7.07
+    },
+    {
+     "mes": 3,
+     "nombre": "Mar",
+     "ventas": 2938.92,
+     "margen_pct": 34.08,
+     "pedidos": 96,
+     "crecimiento_pct": 13.43
+    },
+    {
+     "mes": 4,
+     "nombre": "Abr",
+     "ventas": 3022.7,
+     "margen_pct": 35.72,
+     "pedidos": 104,
+     "crecimiento_pct": 2.85
+    },
+    {
+     "mes": 5,
+     "nombre": "May",
+     "ventas": 3748.14,
+     "margen_pct": 36.68,
+     "pedidos": 147,
+     "crecimiento_pct": 24.0
+    },
+    {
+     "mes": 6,
+     "nombre": "Jun",
+     "ventas": 3522.14,
+     "margen_pct": 34.32,
+     "pedidos": 119,
+     "crecimiento_pct": -6.03
+    },
+    {
+     "mes": 7,
+     "nombre": "Jul",
+     "ventas": 2336.69,
+     "margen_pct": 36.05,
+     "pedidos": 110,
+     "crecimiento_pct": -33.66
+    },
+    {
+     "mes": 8,
+     "nombre": "Ago",
+     "ventas": 2983.13,
+     "margen_pct": 35.3,
+     "pedidos": 114,
+     "crecimiento_pct": 27.66
+    },
+    {
+     "mes": 9,
+     "nombre": "Sep",
+     "ventas": 3277.68,
+     "margen_pct": 34.57,
+     "pedidos": 117,
+     "crecimiento_pct": 9.87
+    },
+    {
+     "mes": 10,
+     "nombre": "Oct",
+     "ventas": 2878.35,
+     "margen_pct": 34.68,
+     "pedidos": 106,
+     "crecimiento_pct": -12.18
+    },
+    {
+     "mes": 11,
+     "nombre": "Nov",
+     "ventas": 2997.6,
+     "margen_pct": 32.35,
+     "pedidos": 109,
+     "crecimiento_pct": 4.14
+    },
+    {
+     "mes": 12,
+     "nombre": "Dic",
+     "ventas": 4309.55,
+     "margen_pct": 32.9,
+     "pedidos": 164,
+     "crecimiento_pct": 43.77
+    }
+   ],
+   "canal": {
+    "Tienda física": {
+     "ventas": 17319.33,
+     "margen": 6770.08,
+     "margen_pct": 39.09,
+     "participacion_pct": 46.32,
+     "pedidos": 801,
+     "unidades": 4995
+    },
+    "Mayorista": {
+     "ventas": 15023.2,
+     "margen": 4377.5,
+     "margen_pct": 29.14,
+     "participacion_pct": 40.18,
+     "pedidos": 208,
+     "unidades": 4956
+    },
+    "Online": {
+     "ventas": 5051.49,
+     "margen": 1833.54,
+     "margen_pct": 36.3,
+     "participacion_pct": 13.51,
+     "pedidos": 370,
+     "unidades": 1526
+    }
+   },
+   "categoria": {
+    "Bebidas": {
+     "ventas": 8431.59,
+     "margen": 2841.69,
+     "margen_pct": 33.7,
+     "participacion_pct": 22.55,
+     "pedidos": 350,
+     "unidades": 3215
+    },
+    "Limpieza": {
+     "ventas": 8426.98,
+     "margen": 2675.68,
+     "margen_pct": 31.75,
+     "participacion_pct": 22.54,
+     "pedidos": 268,
+     "unidades": 2444
+    },
+    "Cuidado personal": {
+     "ventas": 8259.89,
+     "margen": 3144.69,
+     "margen_pct": 38.07,
+     "participacion_pct": 22.09,
+     "pedidos": 325,
+     "unidades": 2794
+    },
+    "Hogar": {
+     "ventas": 7385.75,
+     "margen": 2344.25,
+     "margen_pct": 31.74,
+     "participacion_pct": 19.75,
+     "pedidos": 97,
+     "unidades": 260
+    },
+    "Snacks": {
+     "ventas": 4889.81,
+     "margen": 1974.82,
+     "margen_pct": 40.39,
+     "participacion_pct": 13.08,
+     "pedidos": 339,
+     "unidades": 2764
+    }
+   },
+   "top_productos": {
+    "Detergente 2kg": {
+     "ventas": 5554.86,
+     "margen": 1627.06,
+     "margen_pct": 29.29,
+     "participacion_pct": 14.85,
+     "pedidos": 90,
+     "unidades": 958
+    },
+    "Shampoo 400ml": {
+     "ventas": 4299.61,
+     "margen": 1623.91,
+     "margen_pct": 37.77,
+     "participacion_pct": 11.5,
+     "pedidos": 102,
+     "unidades": 991
+    },
+    "Agua mineral 6x1L": {
+     "ventas": 4271.46,
+     "margen": 1413.36,
+     "margen_pct": 33.09,
+     "participacion_pct": 11.42,
+     "pedidos": 140,
+     "unidades": 1361
+    },
+    "Set de ollas": {
+     "ventas": 3466.38,
+     "margen": 982.38,
+     "margen_pct": 28.34,
+     "participacion_pct": 9.27,
+     "pedidos": 26,
+     "unidades": 69
+    },
+    "Juego de toallas": {
+     "ventas": 2341.06,
+     "margen": 839.56,
+     "margen_pct": 35.86,
+     "participacion_pct": 6.26,
+     "pedidos": 51,
+     "unidades": 143
+    }
+   },
+   "rfm": {
+    "Campeones": 41,
+    "Perdidos": 22,
+    "Leales": 30,
+    "En riesgo": 49,
+    "Potenciales": 23
+   }
+  },
+  "Sierra": {
+   "kpis": {
+    "ventas_netas": 31871.46,
+    "costo_total": 20664.1,
+    "margen_bruto": 11207.36,
+    "margen_pct": 35.16,
+    "pedidos": 1214,
+    "ticket_promedio": 26.25,
+    "clientes_activos": 155,
+    "unidades": 9679
+   },
+   "mensual": [
+    {
+     "mes": 1,
+     "nombre": "Ene",
+     "ventas": 2703.67,
+     "margen_pct": 34.84,
+     "pedidos": 99,
+     "crecimiento_pct": null
+    },
+    {
+     "mes": 2,
+     "nombre": "Feb",
+     "ventas": 1955.49,
+     "margen_pct": 35.39,
+     "pedidos": 73,
+     "crecimiento_pct": -27.67
+    },
+    {
+     "mes": 3,
+     "nombre": "Mar",
+     "ventas": 2789.53,
+     "margen_pct": 35.49,
+     "pedidos": 96,
+     "crecimiento_pct": 42.65
+    },
+    {
+     "mes": 4,
+     "nombre": "Abr",
+     "ventas": 1960.87,
+     "margen_pct": 36.18,
+     "pedidos": 78,
+     "crecimiento_pct": -29.71
+    },
+    {
+     "mes": 5,
+     "nombre": "May",
+     "ventas": 4511.72,
+     "margen_pct": 34.73,
+     "pedidos": 138,
+     "crecimiento_pct": 130.09
+    },
+    {
+     "mes": 6,
+     "nombre": "Jun",
+     "ventas": 1692.15,
+     "margen_pct": 35.71,
+     "pedidos": 76,
+     "crecimiento_pct": -62.49
+    },
+    {
+     "mes": 7,
+     "nombre": "Jul",
+     "ventas": 2541.06,
+     "margen_pct": 34.34,
+     "pedidos": 95,
+     "crecimiento_pct": 50.17
+    },
+    {
+     "mes": 8,
+     "nombre": "Ago",
+     "ventas": 2270.02,
+     "margen_pct": 35.77,
+     "pedidos": 86,
+     "crecimiento_pct": -10.67
+    },
+    {
+     "mes": 9,
+     "nombre": "Sep",
+     "ventas": 2507.03,
+     "margen_pct": 33.16,
+     "pedidos": 89,
+     "crecimiento_pct": 10.44
+    },
+    {
+     "mes": 10,
+     "nombre": "Oct",
+     "ventas": 2168.93,
+     "margen_pct": 36.8,
+     "pedidos": 98,
+     "crecimiento_pct": -13.49
+    },
+    {
+     "mes": 11,
+     "nombre": "Nov",
+     "ventas": 2485.56,
+     "margen_pct": 35.13,
+     "pedidos": 118,
+     "crecimiento_pct": 14.6
+    },
+    {
+     "mes": 12,
+     "nombre": "Dic",
+     "ventas": 4285.42,
+     "margen_pct": 35.37,
+     "pedidos": 168,
+     "crecimiento_pct": 72.41
+    }
+   ],
+   "canal": {
+    "Tienda física": {
+     "ventas": 15028.81,
+     "margen": 5823.61,
+     "margen_pct": 38.75,
+     "participacion_pct": 47.15,
+     "pedidos": 675,
+     "unidades": 4197
+    },
+    "Mayorista": {
+     "ventas": 11285.03,
+     "margen": 3378.68,
+     "margen_pct": 29.94,
+     "participacion_pct": 35.41,
+     "pedidos": 169,
+     "unidades": 3942
+    },
+    "Online": {
+     "ventas": 5557.62,
+     "margen": 2005.07,
+     "margen_pct": 36.08,
+     "participacion_pct": 17.44,
+     "pedidos": 370,
+     "unidades": 1540
+    }
+   },
+   "categoria": {
+    "Limpieza": {
+     "ventas": 7221.21,
+     "margen": 2383.31,
+     "margen_pct": 33.0,
+     "participacion_pct": 22.66,
+     "pedidos": 253,
+     "unidades": 2053
+    },
+    "Hogar": {
+     "ventas": 7140.5,
+     "margen": 2323.5,
+     "margen_pct": 32.54,
+     "participacion_pct": 22.4,
+     "pedidos": 90,
+     "unidades": 241
+    },
+    "Bebidas": {
+     "ventas": 6799.57,
+     "margen": 2349.17,
+     "margen_pct": 34.55,
+     "participacion_pct": 21.33,
+     "pedidos": 304,
+     "unidades": 2592
+    },
+    "Cuidado personal": {
+     "ventas": 5928.12,
+     "margen": 2224.62,
+     "margen_pct": 37.53,
+     "participacion_pct": 18.6,
+     "pedidos": 238,
+     "unidades": 2069
+    },
+    "Snacks": {
+     "ventas": 4782.06,
+     "margen": 1926.76,
+     "margen_pct": 40.29,
+     "participacion_pct": 15.0,
+     "pedidos": 329,
+     "unidades": 2724
+    }
+   },
+   "top_productos": {
+    "Detergente 2kg": {
+     "ventas": 4650.04,
+     "margen": 1423.34,
+     "margen_pct": 30.61,
+     "participacion_pct": 14.59,
+     "pedidos": 92,
+     "unidades": 787
+    },
+    "Agua mineral 6x1L": {
+     "ventas": 3239.61,
+     "margen": 1091.31,
+     "margen_pct": 33.69,
+     "participacion_pct": 10.16,
+     "pedidos": 112,
+     "unidades": 1023
+    },
+    "Set de ollas": {
+     "ventas": 3042.25,
+     "margen": 918.25,
+     "margen_pct": 30.18,
+     "participacion_pct": 9.55,
+     "pedidos": 23,
+     "unidades": 59
+    },
+    "Shampoo 400ml": {
+     "ventas": 2892.38,
+     "margen": 1064.48,
+     "margen_pct": 36.8,
+     "participacion_pct": 9.08,
+     "pedidos": 69,
+     "unidades": 677
+    },
+    "Vajilla 12 piezas": {
+     "ventas": 2209.01,
+     "margen": 713.01,
+     "margen_pct": 32.28,
+     "participacion_pct": 6.93,
+     "pedidos": 27,
+     "unidades": 68
+    }
+   },
+   "rfm": {
+    "Potenciales": 32,
+    "Leales": 29,
+    "Perdidos": 31,
+    "En riesgo": 26,
+    "Campeones": 37
+   }
+  },
+  "Amazonía": {
+   "kpis": {
+    "ventas_netas": 7465.31,
+    "costo_total": 4881.35,
+    "margen_bruto": 2583.96,
+    "margen_pct": 34.61,
+    "pedidos": 272,
+    "ticket_promedio": 27.45,
+    "clientes_activos": 37,
+    "unidades": 2254
+   },
+   "mensual": [
+    {
+     "mes": 1,
+     "nombre": "Ene",
+     "ventas": 365.87,
+     "margen_pct": 32.43,
+     "pedidos": 7,
+     "crecimiento_pct": null
+    },
+    {
+     "mes": 2,
+     "nombre": "Feb",
+     "ventas": 328.22,
+     "margen_pct": 30.08,
+     "pedidos": 6,
+     "crecimiento_pct": -10.29
+    },
+    {
+     "mes": 3,
+     "nombre": "Mar",
+     "ventas": 527.48,
+     "margen_pct": 33.26,
+     "pedidos": 13,
+     "crecimiento_pct": 60.71
+    },
+    {
+     "mes": 4,
+     "nombre": "Abr",
+     "ventas": 372.5,
+     "margen_pct": 34.63,
+     "pedidos": 15,
+     "crecimiento_pct": -29.38
+    },
+    {
+     "mes": 5,
+     "nombre": "May",
+     "ventas": 693.51,
+     "margen_pct": 34.62,
+     "pedidos": 27,
+     "crecimiento_pct": 86.18
+    },
+    {
+     "mes": 6,
+     "nombre": "Jun",
+     "ventas": 833.4,
+     "margen_pct": 34.86,
+     "pedidos": 31,
+     "crecimiento_pct": 20.17
+    },
+    {
+     "mes": 7,
+     "nombre": "Jul",
+     "ventas": 807.74,
+     "margen_pct": 28.14,
+     "pedidos": 17,
+     "crecimiento_pct": -3.08
+    },
+    {
+     "mes": 8,
+     "nombre": "Ago",
+     "ventas": 594.12,
+     "margen_pct": 36.54,
+     "pedidos": 25,
+     "crecimiento_pct": -26.45
+    },
+    {
+     "mes": 9,
+     "nombre": "Sep",
+     "ventas": 651.78,
+     "margen_pct": 35.44,
+     "pedidos": 21,
+     "crecimiento_pct": 9.7
+    },
+    {
+     "mes": 10,
+     "nombre": "Oct",
+     "ventas": 661.84,
+     "margen_pct": 36.05,
+     "pedidos": 29,
+     "crecimiento_pct": 1.54
+    },
+    {
+     "mes": 11,
+     "nombre": "Nov",
+     "ventas": 626.06,
+     "margen_pct": 36.81,
+     "pedidos": 30,
+     "crecimiento_pct": -5.41
+    },
+    {
+     "mes": 12,
+     "nombre": "Dic",
+     "ventas": 1002.81,
+     "margen_pct": 38.61,
+     "pedidos": 51,
+     "crecimiento_pct": 60.18
+    }
+   ],
+   "canal": {
+    "Tienda física": {
+     "ventas": 3207.45,
+     "margen": 1250.8,
+     "margen_pct": 39.0,
+     "participacion_pct": 42.96,
+     "pedidos": 142,
+     "unidades": 919
+    },
+    "Mayorista": {
+     "ventas": 2578.12,
+     "margen": 739.07,
+     "margen_pct": 28.67,
+     "participacion_pct": 34.53,
+     "pedidos": 40,
+     "unidades": 964
+    },
+    "Online": {
+     "ventas": 1679.74,
+     "margen": 594.09,
+     "margen_pct": 35.37,
+     "participacion_pct": 22.5,
+     "pedidos": 90,
+     "unidades": 371
+    }
+   },
+   "categoria": {
+    "Hogar": {
+     "ventas": 1807.62,
+     "margen": 543.12,
+     "margen_pct": 30.05,
+     "participacion_pct": 24.21,
+     "pedidos": 27,
+     "unidades": 61
+    },
+    "Limpieza": {
+     "ventas": 1646.8,
+     "margen": 551.0,
+     "margen_pct": 33.46,
+     "participacion_pct": 22.06,
+     "pedidos": 56,
+     "unidades": 432
+    },
+    "Bebidas": {
+     "ventas": 1627.58,
+     "margen": 548.38,
+     "margen_pct": 33.69,
+     "participacion_pct": 21.8,
+     "pedidos": 73,
+     "unidades": 668
+    },
+    "Snacks": {
+     "ventas": 1196.26,
+     "margen": 495.91,
+     "margen_pct": 41.46,
+     "participacion_pct": 16.02,
+     "pedidos": 68,
+     "unidades": 667
+    },
+    "Cuidado personal": {
+     "ventas": 1187.05,
+     "margen": 445.55,
+     "margen_pct": 37.53,
+     "participacion_pct": 15.9,
+     "pedidos": 48,
+     "unidades": 426
+    }
+   },
+   "top_productos": {
+    "Detergente 2kg": {
+     "ventas": 1153.26,
+     "margen": 370.16,
+     "margen_pct": 32.1,
+     "participacion_pct": 15.45,
+     "pedidos": 30,
+     "unidades": 191
+    },
+    "Set de ollas": {
+     "ventas": 704.32,
+     "margen": 164.32,
+     "margen_pct": 23.33,
+     "participacion_pct": 9.43,
+     "pedidos": 7,
+     "unidades": 15
+    },
+    "Vajilla 12 piezas": {
+     "ventas": 675.46,
+     "margen": 213.46,
+     "margen_pct": 31.6,
+     "participacion_pct": 9.05,
+     "pedidos": 8,
+     "unidades": 21
+    },
+    "Jugo de naranja 1L": {
+     "ventas": 653.92,
+     "margen": 232.72,
+     "margen_pct": 35.59,
+     "participacion_pct": 8.76,
+     "pedidos": 36,
+     "unidades": 324
+    },
+    "Agua mineral 6x1L": {
+     "ventas": 583.43,
+     "margen": 199.13,
+     "margen_pct": 34.13,
+     "participacion_pct": 7.82,
+     "pedidos": 24,
+     "unidades": 183
+    }
+   },
+   "rfm": {
+    "En riesgo": 11,
+    "Campeones": 6,
+    "Potenciales": 16,
+    "Perdidos": 1,
+    "Leales": 3
+   }
+  },
+  "Insular": {
+   "kpis": {
+    "ventas_netas": 2986.78,
+    "costo_total": 2044.65,
+    "margen_bruto": 942.13,
+    "margen_pct": 31.54,
+    "pedidos": 97,
+    "ticket_promedio": 30.79,
+    "clientes_activos": 23,
+    "unidades": 826
+   },
+   "mensual": [
+    {
+     "mes": 1,
+     "nombre": "Ene",
+     "ventas": 119.78,
+     "margen_pct": 35.38,
+     "pedidos": 4,
+     "crecimiento_pct": null
+    },
+    {
+     "mes": 2,
+     "nombre": "Feb",
+     "ventas": 243.03,
+     "margen_pct": 32.13,
+     "pedidos": 10,
+     "crecimiento_pct": 102.9
+    },
+    {
+     "mes": 3,
+     "nombre": "Mar",
+     "ventas": 56.59,
+     "margen_pct": 42.92,
+     "pedidos": 4,
+     "crecimiento_pct": -76.72
+    },
+    {
+     "mes": 4,
+     "nombre": "Abr",
+     "ventas": 216.69,
+     "margen_pct": 32.69,
+     "pedidos": 7,
+     "crecimiento_pct": 282.94
+    },
+    {
+     "mes": 5,
+     "nombre": "May",
+     "ventas": 418.5,
+     "margen_pct": 33.36,
+     "pedidos": 12,
+     "crecimiento_pct": 93.13
+    },
+    {
+     "mes": 6,
+     "nombre": "Jun",
+     "ventas": 101.87,
+     "margen_pct": 37.37,
+     "pedidos": 7,
+     "crecimiento_pct": -75.66
+    },
+    {
+     "mes": 7,
+     "nombre": "Jul",
+     "ventas": 352.64,
+     "margen_pct": 34.2,
+     "pedidos": 10,
+     "crecimiento_pct": 246.18
+    },
+    {
+     "mes": 8,
+     "nombre": "Ago",
+     "ventas": 208.95,
+     "margen_pct": 30.56,
+     "pedidos": 6,
+     "crecimiento_pct": -40.75
+    },
+    {
+     "mes": 9,
+     "nombre": "Sep",
+     "ventas": 123.26,
+     "margen_pct": 29.74,
+     "pedidos": 6,
+     "crecimiento_pct": -41.01
+    },
+    {
+     "mes": 10,
+     "nombre": "Oct",
+     "ventas": 565.59,
+     "margen_pct": 21.88,
+     "pedidos": 11,
+     "crecimiento_pct": 358.84
+    },
+    {
+     "mes": 11,
+     "nombre": "Nov",
+     "ventas": 144.16,
+     "margen_pct": 41.35,
+     "pedidos": 10,
+     "crecimiento_pct": -74.51
+    },
+    {
+     "mes": 12,
+     "nombre": "Dic",
+     "ventas": 435.72,
+     "margen_pct": 33.15,
+     "pedidos": 10,
+     "crecimiento_pct": 202.24
+    }
+   ],
+   "canal": {
+    "Mayorista": {
+     "ventas": 1572.05,
+     "margen": 403.45,
+     "margen_pct": 25.66,
+     "participacion_pct": 52.63,
+     "pedidos": 20,
+     "unidades": 409
+    },
+    "Tienda física": {
+     "ventas": 1007.96,
+     "margen": 386.21,
+     "margen_pct": 38.32,
+     "participacion_pct": 33.75,
+     "pedidos": 46,
+     "unidades": 282
+    },
+    "Online": {
+     "ventas": 406.76,
+     "margen": 152.47,
+     "margen_pct": 37.48,
+     "participacion_pct": 13.62,
+     "pedidos": 31,
+     "unidades": 135
+    }
+   },
+   "categoria": {
+    "Hogar": {
+     "ventas": 1114.59,
+     "margen": 287.59,
+     "margen_pct": 25.8,
+     "participacion_pct": 37.32,
+     "pedidos": 12,
+     "unidades": 49
+    },
+    "Bebidas": {
+     "ventas": 722.14,
+     "margen": 224.04,
+     "margen_pct": 31.02,
+     "participacion_pct": 24.18,
+     "pedidos": 28,
+     "unidades": 297
+    },
+    "Cuidado personal": {
+     "ventas": 468.61,
+     "margen": 180.41,
+     "margen_pct": 38.5,
+     "participacion_pct": 15.69,
+     "pedidos": 23,
+     "unidades": 179
+    },
+    "Limpieza": {
+     "ventas": 373.26,
+     "margen": 125.06,
+     "margen_pct": 33.5,
+     "participacion_pct": 12.5,
+     "pedidos": 14,
+     "unidades": 126
+    },
+    "Snacks": {
+     "ventas": 308.18,
+     "margen": 125.03,
+     "margen_pct": 40.57,
+     "participacion_pct": 10.32,
+     "pedidos": 20,
+     "unidades": 175
+    }
+   },
+   "top_productos": {
+    "Juego de toallas": {
+     "ventas": 516.11,
+     "margen": 159.11,
+     "margen_pct": 30.83,
+     "participacion_pct": 17.28,
+     "pedidos": 8,
+     "unidades": 34
+    },
+    "Set de ollas": {
+     "ventas": 441.1,
+     "margen": 81.1,
+     "margen_pct": 18.39,
+     "participacion_pct": 14.77,
+     "pedidos": 2,
+     "unidades": 10
+    },
+    "Agua mineral 6x1L": {
+     "ventas": 308.44,
+     "margen": 90.04,
+     "margen_pct": 29.19,
+     "participacion_pct": 10.33,
+     "pedidos": 9,
+     "unidades": 104
+    },
+    "Detergente 2kg": {
+     "ventas": 246.96,
+     "margen": 82.96,
+     "margen_pct": 33.59,
+     "participacion_pct": 8.27,
+     "pedidos": 7,
+     "unidades": 40
+    },
+    "Jugo de naranja 1L": {
+     "ventas": 238.5,
+     "margen": 81.2,
+     "margen_pct": 34.05,
+     "participacion_pct": 7.99,
+     "pedidos": 14,
+     "unidades": 121
+    }
+   },
+   "rfm": {
+    "Perdidos": 11,
+    "Potenciales": 6,
+    "En riesgo": 3,
+    "Campeones": 3
+   }
+  }
+ },
+ "en_riesgo_top10": [
+  {
+   "id_cliente": "CLI-0224",
+   "region": "Sierra",
+   "recencia": 107,
+   "frecuencia": 2,
+   "monto": 502.6,
+   "R": 2,
+   "F": 1,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0085",
+   "region": "Costa",
+   "recencia": 64,
+   "frecuencia": 5,
+   "monto": 448.87,
+   "R": 2,
+   "F": 3,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0258",
+   "region": "Sierra",
+   "recencia": 73,
+   "frecuencia": 7,
+   "monto": 410.62,
+   "R": 2,
+   "F": 4,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0105",
+   "region": "Costa",
+   "recencia": 134,
+   "frecuencia": 8,
+   "monto": 394.52,
+   "R": 2,
+   "F": 5,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0021",
+   "region": "Costa",
+   "recencia": 70,
+   "frecuencia": 6,
+   "monto": 391.09,
+   "R": 2,
+   "F": 4,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0246",
+   "region": "Sierra",
+   "recencia": 89,
+   "frecuencia": 9,
+   "monto": 365.91,
+   "R": 2,
+   "F": 5,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0109",
+   "region": "Costa",
+   "recencia": 72,
+   "frecuencia": 11,
+   "monto": 344.93,
+   "R": 2,
+   "F": 5,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0113",
+   "region": "Costa",
+   "recencia": 85,
+   "frecuencia": 5,
+   "monto": 303.73,
+   "R": 2,
+   "F": 3,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0064",
+   "region": "Costa",
+   "recencia": 234,
+   "frecuencia": 6,
+   "monto": 274.51,
+   "R": 1,
+   "F": 4,
+   "M": 5,
+   "segmento": "En riesgo"
+  },
+  {
+   "id_cliente": "CLI-0123",
+   "region": "Costa",
+   "recencia": 90,
+   "frecuencia": 6,
+   "monto": 274.26,
+   "R": 2,
+   "F": 4,
+   "M": 5,
+   "segmento": "En riesgo"
+  }
+ ],
+ "en_riesgo_por_canal": {
+  "Tienda física": {
+   "ventas": 5404.5,
+   "margen": 2115.85,
+   "margen_pct": 39.15,
+   "participacion_pct": 46.23,
+   "pedidos": 240,
+   "unidades": 1536
+  },
+  "Mayorista": {
+   "ventas": 4860.94,
+   "margen": 1451.59,
+   "margen_pct": 29.86,
+   "participacion_pct": 41.58,
+   "pedidos": 65,
+   "unidades": 1517
+  },
+  "Online": {
+   "ventas": 1424.43,
+   "margen": 499.18,
+   "margen_pct": 35.04,
+   "participacion_pct": 12.19,
+   "pedidos": 85,
+   "unidades": 378
+  }
+ },
+ "en_riesgo_por_region": {
+  "Costa": {
+   "ventas": 6385.8,
+   "margen": 2235.1,
+   "margen_pct": 35.0,
+   "participacion_pct": 54.63,
+   "pedidos": 227,
+   "unidades": 2028
+  },
+  "Sierra": {
+   "ventas": 4337.35,
+   "margen": 1493.05,
+   "margen_pct": 34.42,
+   "participacion_pct": 37.1,
+   "pedidos": 129,
+   "unidades": 1126
+  },
+  "Amazonía": {
+   "ventas": 758.66,
+   "margen": 277.61,
+   "margen_pct": 36.59,
+   "participacion_pct": 6.49,
+   "pedidos": 27,
+   "unidades": 232
+  },
+  "Insular": {
+   "ventas": 208.06,
+   "margen": 60.86,
+   "margen_pct": 29.25,
+   "participacion_pct": 1.78,
+   "pedidos": 7,
+   "unidades": 45
+  }
+ },
+ "en_riesgo_top20_ventas": 5819.6,
+ "investigaciones": {
+  "canal_por_mes": {
+   "Tienda física": [
+    3485.17,
+    3284.49,
+    3101.53,
+    3566.22,
+    4554.34,
+    2739.87,
+    2124.63,
+    3015.7,
+    2644.35,
+    2526.72,
+    2093.75,
+    3426.78
+   ],
+   "Mayorista": [
+    2273.86,
+    1562.37,
+    2776.51,
+    1441.95,
+    3613.56,
+    2496.84,
+    2822.06,
+    2055.81,
+    2576.9,
+    2207.08,
+    2629.71,
+    4001.77
+   ],
+   "Online": [
+    218.48,
+    270.81,
+    434.47,
+    564.59,
+    1203.97,
+    912.85,
+    1091.43,
+    984.71,
+    1338.5,
+    1540.91,
+    1529.92,
+    2604.95
+   ]
+  },
+  "categoria_por_mes": {
+   "Bebidas": [
+    1471.54,
+    1443.18,
+    1256.75,
+    1428.13,
+    1525.47,
+    1903.01,
+    1007.73,
+    987.28,
+    1237.44,
+    1394.15,
+    1408.13,
+    2518.07
+   ],
+   "Hogar": [
+    1003.96,
+    1073.81,
+    934.88,
+    949.15,
+    2403.33,
+    882.45,
+    1192.76,
+    1814.66,
+    1215.58,
+    2004.91,
+    1239.42,
+    2733.53
+   ],
+   "Limpieza": [
+    1642.77,
+    1093.52,
+    2068.39,
+    1575.61,
+    1310.96,
+    1383.45,
+    1249.55,
+    1247.98,
+    1959.77,
+    1017.0,
+    1683.39,
+    1435.85
+   ],
+   "Cuidado personal": [
+    852.91,
+    908.14,
+    1182.02,
+    997.92,
+    3170.61,
+    1081.29,
+    1583.19,
+    1084.01,
+    1375.34,
+    1100.27,
+    1086.53,
+    1421.45
+   ],
+   "Snacks": [
+    1006.32,
+    599.03,
+    870.47,
+    621.95,
+    961.5,
+    899.35,
+    1004.89,
+    922.29,
+    771.63,
+    758.38,
+    835.9,
+    1924.61
+   ]
+  },
+  "gaseosa_por_mes": {
+   "ventas": [
+    584.01,
+    434.28,
+    530.13,
+    399.05,
+    655.19,
+    822.74,
+    96.57,
+    122.46,
+    190.98,
+    77.99,
+    57.89,
+    321.95
+   ],
+   "lineas": [
+    26,
+    15,
+    21,
+    19,
+    28,
+    28,
+    9,
+    8,
+    5,
+    4,
+    4,
+    14
+   ]
+  },
+  "gaseosa_semestre_canal": {
+   "Online": {
+    "S1": 253.47,
+    "S2": 242.04,
+    "variacion_pct": -4.51
+   },
+   "Tienda física": {
+    "S1": 1686.92,
+    "S2": 352.87,
+    "variacion_pct": -79.08
+   },
+   "Mayorista": {
+    "S1": 1485.0,
+    "S2": 272.92,
+    "variacion_pct": -81.62
+   }
+  },
+  "gaseosa_semestre_region": {
+   "Amazonía": {
+    "S1": 217.58,
+    "S2": 172.64,
+    "variacion_pct": -20.66
+   },
+   "Sierra": {
+    "S1": 1363.98,
+    "S2": 323.33,
+    "variacion_pct": -76.3
+   },
+   "Costa": {
+    "S1": 1668.64,
+    "S2": 371.87,
+    "variacion_pct": -77.71
+   },
+   "Insular": {
+    "S1": 175.19,
+    "S2": 0.0,
+    "variacion_pct": -100.0
+   }
+  },
+  "descuento_medio_total": 8.96,
+  "descuento_medio_region": {
+   "Sierra": 8.32,
+   "Costa": 9.26,
+   "Amazonía": 8.62,
+   "Insular": 12.72
+  },
+  "descuento_medio_canal": {
+   "Tienda física": 2.75,
+   "Mayorista": 16.21,
+   "Online": 6.77
+  },
+  "descuento_medio_producto": {
+   "Jugo de naranja 1L": 7.94,
+   "Gaseosa cola 3L": 9.57,
+   "Agua mineral 6x1L": 10.08,
+   "Juego de toallas": 9.1,
+   "Cloro 1L": 8.19,
+   "Desinfectante multiuso": 7.23,
+   "Jabón de tocador x3": 8.87,
+   "Galletas integrales": 8.3,
+   "Detergente 2kg": 9.44,
+   "Papas fritas 200g": 9.37,
+   "Chocolate 100g": 8.32,
+   "Crema dental 150g": 8.82,
+   "Set de ollas": 8.79,
+   "Shampoo 400ml": 9.98,
+   "Vajilla 12 piezas": 7.1
+  },
+  "canal_semestre_por_region": {
+   "Amazonía": {
+    "Online": {
+     "S1": 270.54,
+     "S2": 1409.2,
+     "variacion_pct": 420.89
+    },
+    "Tienda física": {
+     "S1": 1458.03,
+     "S2": 1749.42,
+     "variacion_pct": 19.99
+    },
+    "Mayorista": {
+     "S1": 1392.4,
+     "S2": 1185.72,
+     "variacion_pct": -14.84
+    }
+   },
+   "Costa": {
+    "Online": {
+     "S1": 1696.66,
+     "S2": 3354.83,
+     "variacion_pct": 97.73
+    },
+    "Mayorista": {
+     "S1": 7003.04,
+     "S2": 8020.16,
+     "variacion_pct": 14.52
+    },
+    "Tienda física": {
+     "S1": 9911.32,
+     "S2": 7408.01,
+     "variacion_pct": -25.26
+    }
+   },
+   "Insular": {
+    "Online": {
+     "S1": 84.96,
+     "S2": 321.81,
+     "variacion_pct": 278.79
+    },
+    "Mayorista": {
+     "S1": 505.57,
+     "S2": 1066.48,
+     "variacion_pct": 110.95
+    },
+    "Tienda física": {
+     "S1": 565.92,
+     "S2": 442.04,
+     "variacion_pct": -21.89
+    }
+   },
+   "Sierra": {
+    "Online": {
+     "S1": 1553.03,
+     "S2": 4004.59,
+     "variacion_pct": 157.86
+    },
+    "Mayorista": {
+     "S1": 5264.06,
+     "S2": 6020.97,
+     "variacion_pct": 14.38
+    },
+    "Tienda física": {
+     "S1": 8796.34,
+     "S2": 6232.47,
+     "variacion_pct": -29.15
+    }
+   }
+  },
+  "clientes_por_region": {
+   "Sierra": 155,
+   "Insular": 23,
+   "Costa": 165,
+   "Amazonía": 37
+  },
+  "desc_mayor15_por_canal": {
+   "Mayorista": 151,
+   "Online": 60
+  }
+ }
+}

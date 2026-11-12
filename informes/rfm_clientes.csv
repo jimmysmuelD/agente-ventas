@@ -1,0 +1,381 @@
+id_cliente,region,recencia,frecuencia,monto,R,F,M,segmento
+CLI-0001,Costa,20,6,82.7,4,4,3,Campeones
+CLI-0002,Costa,144,3,38.27,1,2,1,Perdidos
+CLI-0003,Costa,50,5,81.15,3,3,2,Leales
+CLI-0004,Costa,18,5,101.23,4,3,3,Leales
+CLI-0005,Costa,41,6,107.52,3,4,3,Leales
+CLI-0006,Costa,29,7,114.6,3,4,3,Leales
+CLI-0007,Costa,7,7,96.35,5,4,3,Campeones
+CLI-0008,Costa,133,3,88.22,2,2,3,En riesgo
+CLI-0009,Costa,53,6,84.28,3,4,3,Leales
+CLI-0010,Costa,312,1,20.67,1,1,1,Perdidos
+CLI-0011,Costa,78,2,23.98,2,1,1,En riesgo
+CLI-0012,Costa,159,7,211.42,1,4,4,En riesgo
+CLI-0013,Costa,90,6,141.43,2,4,4,En riesgo
+CLI-0014,Costa,14,4,75.15,4,2,2,Potenciales
+CLI-0015,Costa,156,5,101.49,1,3,3,En riesgo
+CLI-0016,Costa,98,2,35.72,2,1,1,En riesgo
+CLI-0017,Costa,120,3,41.48,2,2,1,En riesgo
+CLI-0018,Costa,34,11,288.52,3,5,5,Leales
+CLI-0019,Costa,43,9,201.97,3,5,4,Leales
+CLI-0020,Costa,7,2,57.99,5,1,2,Potenciales
+CLI-0021,Costa,70,6,391.09,2,4,5,En riesgo
+CLI-0022,Costa,9,5,196.53,5,3,4,Leales
+CLI-0023,Costa,10,7,83.01,5,4,3,Campeones
+CLI-0024,Costa,168,6,78.91,1,4,2,En riesgo
+CLI-0025,Costa,0,85,1987.79,5,5,5,Campeones
+CLI-0026,Costa,4,7,85.29,5,4,3,Campeones
+CLI-0027,Costa,234,4,214.26,1,2,5,Perdidos
+CLI-0028,Costa,7,5,402.48,5,3,5,Leales
+CLI-0029,Costa,279,2,118.4,1,1,3,Perdidos
+CLI-0031,Costa,97,2,10.71,2,1,1,En riesgo
+CLI-0032,Costa,332,2,88.08,1,1,3,Perdidos
+CLI-0033,Costa,1,5,183.52,5,3,4,Leales
+CLI-0034,Costa,37,5,99.24,3,3,3,Leales
+CLI-0035,Costa,82,8,205.06,2,5,4,En riesgo
+CLI-0036,Costa,44,4,151.32,3,2,4,Potenciales
+CLI-0038,Costa,2,8,196.97,5,5,4,Campeones
+CLI-0039,Costa,52,6,230.39,3,4,5,Leales
+CLI-0040,Costa,169,3,25.1,1,2,1,Perdidos
+CLI-0041,Costa,130,5,64.68,2,3,2,En riesgo
+CLI-0042,Costa,101,2,77.73,2,1,2,En riesgo
+CLI-0043,Costa,29,5,96.24,3,3,3,Leales
+CLI-0044,Costa,4,9,301.05,5,5,5,Campeones
+CLI-0045,Costa,21,6,451.36,4,4,5,Campeones
+CLI-0046,Costa,231,1,79.34,1,1,2,Perdidos
+CLI-0047,Costa,0,67,1671.06,5,5,5,Campeones
+CLI-0048,Costa,6,4,269.04,5,2,5,Potenciales
+CLI-0049,Costa,25,6,116.93,4,4,3,Campeones
+CLI-0050,Costa,2,6,195.95,5,4,4,Campeones
+CLI-0051,Costa,191,5,131.83,1,3,4,En riesgo
+CLI-0052,Costa,0,83,2243.75,5,5,5,Campeones
+CLI-0053,Costa,15,8,153.03,4,5,4,Campeones
+CLI-0054,Costa,13,5,92.23,4,3,3,Leales
+CLI-0055,Costa,111,3,215.15,2,2,5,En riesgo
+CLI-0056,Costa,114,3,61.06,2,2,2,En riesgo
+CLI-0058,Costa,23,4,60.91,4,2,2,Potenciales
+CLI-0059,Costa,136,5,113.37,2,3,3,En riesgo
+CLI-0060,Costa,244,1,75.42,1,1,2,Perdidos
+CLI-0061,Costa,8,4,343.6,5,2,5,Potenciales
+CLI-0062,Costa,11,2,12.59,4,1,1,Potenciales
+CLI-0063,Costa,11,3,13.63,4,2,1,Potenciales
+CLI-0064,Costa,234,6,274.51,1,4,5,En riesgo
+CLI-0066,Costa,40,3,37.64,3,2,1,Potenciales
+CLI-0067,Costa,18,6,199.6,4,4,4,Campeones
+CLI-0068,Costa,268,4,65.85,1,2,2,Perdidos
+CLI-0069,Costa,305,3,112.22,1,2,3,Perdidos
+CLI-0070,Costa,31,3,26.81,3,2,1,Potenciales
+CLI-0071,Costa,121,1,4.69,2,1,1,En riesgo
+CLI-0072,Costa,0,78,2381.89,5,5,5,Campeones
+CLI-0073,Costa,18,8,204.84,4,5,4,Campeones
+CLI-0074,Costa,117,3,127.44,2,2,4,En riesgo
+CLI-0075,Costa,49,7,162.15,3,4,4,Leales
+CLI-0076,Costa,26,8,187.99,3,5,4,Leales
+CLI-0077,Costa,72,6,152.81,2,4,4,En riesgo
+CLI-0078,Costa,47,3,62.02,3,2,2,Potenciales
+CLI-0079,Costa,242,3,115.75,1,2,3,Perdidos
+CLI-0080,Costa,17,6,165.76,4,4,4,Campeones
+CLI-0081,Costa,230,3,64.68,1,2,2,Perdidos
+CLI-0082,Costa,17,6,52.71,4,4,2,Campeones
+CLI-0083,Costa,6,6,371.02,5,4,5,Campeones
+CLI-0084,Costa,224,2,55.99,1,1,2,Perdidos
+CLI-0085,Costa,64,5,448.87,2,3,5,En riesgo
+CLI-0086,Costa,12,7,98.35,4,4,3,Campeones
+CLI-0087,Costa,50,7,100.3,3,4,3,Leales
+CLI-0088,Costa,339,1,7.05,1,1,1,Perdidos
+CLI-0089,Costa,201,3,78.27,1,2,2,Perdidos
+CLI-0090,Costa,121,4,71.91,2,2,2,En riesgo
+CLI-0091,Costa,23,3,90.28,4,2,3,Potenciales
+CLI-0092,Costa,65,2,66.17,2,1,2,En riesgo
+CLI-0093,Costa,189,1,23.04,1,1,1,Perdidos
+CLI-0094,Costa,17,6,74.53,4,4,2,Campeones
+CLI-0095,Costa,1,69,2011.36,5,5,5,Campeones
+CLI-0096,Costa,4,6,61.28,5,4,2,Campeones
+CLI-0097,Costa,73,5,40.49,2,3,1,En riesgo
+CLI-0098,Costa,37,6,120.78,3,4,3,Leales
+CLI-0099,Costa,91,5,96.46,2,3,3,En riesgo
+CLI-0100,Costa,114,5,94.1,2,3,3,En riesgo
+CLI-0101,Costa,22,8,281.04,4,5,5,Campeones
+CLI-0102,Costa,70,3,163.58,2,2,4,En riesgo
+CLI-0103,Costa,45,4,43.21,3,2,1,Potenciales
+CLI-0104,Costa,39,7,266.08,3,4,5,Leales
+CLI-0105,Costa,134,8,394.52,2,5,5,En riesgo
+CLI-0106,Costa,1,82,2580.22,5,5,5,Campeones
+CLI-0107,Costa,0,3,25.19,5,2,1,Potenciales
+CLI-0108,Costa,13,7,199.2,4,4,4,Campeones
+CLI-0109,Costa,72,11,344.93,2,5,5,En riesgo
+CLI-0110,Costa,1,6,105.02,5,4,3,Campeones
+CLI-0111,Costa,23,7,423.34,4,4,5,Campeones
+CLI-0112,Costa,2,9,186.5,5,5,4,Campeones
+CLI-0113,Costa,85,5,303.73,2,3,5,En riesgo
+CLI-0114,Costa,152,4,71.88,1,2,2,Perdidos
+CLI-0115,Costa,34,3,38.56,3,2,1,Potenciales
+CLI-0116,Costa,80,4,129.51,2,2,4,En riesgo
+CLI-0117,Costa,22,6,105.07,4,4,3,Campeones
+CLI-0118,Costa,2,70,1461.66,5,5,5,Campeones
+CLI-0119,Costa,4,5,97.75,5,3,3,Leales
+CLI-0120,Costa,82,6,153.18,2,4,4,En riesgo
+CLI-0121,Costa,28,4,231.12,3,2,5,Potenciales
+CLI-0122,Costa,22,4,125.61,4,2,4,Potenciales
+CLI-0123,Costa,90,6,274.26,2,4,5,En riesgo
+CLI-0124,Costa,355,1,3.28,1,1,1,Perdidos
+CLI-0125,Costa,30,7,204.96,3,4,4,Leales
+CLI-0126,Costa,195,3,29.45,1,2,1,Perdidos
+CLI-0127,Costa,112,6,137.31,2,4,4,En riesgo
+CLI-0128,Costa,149,2,33.59,1,1,1,Perdidos
+CLI-0129,Costa,40,6,96.88,3,4,3,Leales
+CLI-0130,Costa,68,1,1.59,2,1,1,En riesgo
+CLI-0131,Costa,99,3,41.18,2,2,1,En riesgo
+CLI-0132,Costa,5,6,283.29,5,4,5,Campeones
+CLI-0133,Costa,75,7,176.5,2,4,4,En riesgo
+CLI-0134,Costa,5,3,62.44,5,2,2,Potenciales
+CLI-0135,Costa,64,3,43.21,2,2,1,En riesgo
+CLI-0136,Costa,134,7,173.0,2,4,4,En riesgo
+CLI-0137,Costa,17,6,136.13,4,4,4,Campeones
+CLI-0138,Costa,2,10,166.42,5,5,4,Campeones
+CLI-0139,Costa,23,5,263.45,4,3,5,Leales
+CLI-0140,Costa,46,4,88.38,3,2,3,Potenciales
+CLI-0141,Costa,100,6,72.21,2,4,2,En riesgo
+CLI-0142,Costa,13,9,306.07,4,5,5,Campeones
+CLI-0143,Costa,142,5,110.31,2,3,3,En riesgo
+CLI-0144,Costa,262,2,31.88,1,1,1,Perdidos
+CLI-0145,Costa,178,5,72.34,1,3,2,En riesgo
+CLI-0146,Costa,14,7,114.71,4,4,3,Campeones
+CLI-0147,Costa,202,2,78.02,1,1,2,Perdidos
+CLI-0148,Costa,25,7,91.64,4,4,3,Campeones
+CLI-0149,Costa,68,5,73.37,2,3,2,En riesgo
+CLI-0150,Costa,89,5,44.36,2,3,1,En riesgo
+CLI-0152,Costa,3,2,48.87,5,1,2,Potenciales
+CLI-0153,Costa,58,7,230.15,3,4,5,Leales
+CLI-0154,Costa,4,2,11.73,5,1,1,Potenciales
+CLI-0155,Costa,34,4,144.94,3,2,4,Potenciales
+CLI-0156,Costa,37,8,232.36,3,5,5,Leales
+CLI-0157,Costa,72,3,105.13,2,2,3,En riesgo
+CLI-0158,Costa,26,8,176.84,3,5,4,Leales
+CLI-0159,Costa,108,2,14.53,2,1,1,En riesgo
+CLI-0160,Costa,3,69,1968.44,5,5,5,Campeones
+CLI-0161,Costa,12,8,226.46,4,5,5,Campeones
+CLI-0162,Costa,25,5,107.53,4,3,3,Leales
+CLI-0163,Costa,51,3,66.9,3,2,2,Potenciales
+CLI-0164,Costa,29,7,240.53,3,4,5,Leales
+CLI-0165,Costa,103,5,73.49,2,3,2,En riesgo
+CLI-0166,Costa,173,6,112.77,1,4,3,En riesgo
+CLI-0167,Costa,31,9,177.43,3,5,4,Leales
+CLI-0168,Costa,10,6,285.83,5,4,5,Campeones
+CLI-0169,Costa,4,6,43.92,5,4,1,Campeones
+CLI-0170,Costa,47,7,293.2,3,4,5,Leales
+CLI-0171,Sierra,30,2,152.89,3,1,4,Potenciales
+CLI-0172,Sierra,57,8,299.53,3,5,5,Leales
+CLI-0173,Sierra,295,2,128.38,1,1,4,Perdidos
+CLI-0174,Sierra,34,7,215.64,3,4,5,Leales
+CLI-0175,Sierra,11,4,56.58,4,2,2,Potenciales
+CLI-0176,Sierra,68,6,261.73,2,4,5,En riesgo
+CLI-0177,Sierra,15,8,138.32,4,5,4,Campeones
+CLI-0178,Sierra,2,82,2157.46,5,5,5,Campeones
+CLI-0179,Sierra,20,7,308.19,4,4,5,Campeones
+CLI-0180,Sierra,95,2,88.74,2,1,3,En riesgo
+CLI-0182,Sierra,5,6,226.28,5,4,5,Campeones
+CLI-0183,Sierra,3,5,86.71,5,3,3,Leales
+CLI-0184,Sierra,35,7,146.27,3,4,4,Leales
+CLI-0185,Sierra,11,4,149.97,4,2,4,Potenciales
+CLI-0186,Sierra,252,2,7.43,1,1,1,Perdidos
+CLI-0187,Sierra,13,5,84.27,4,3,3,Leales
+CLI-0188,Sierra,33,5,134.3,3,3,4,Leales
+CLI-0189,Sierra,3,6,161.49,5,4,4,Campeones
+CLI-0190,Sierra,11,7,122.71,4,4,4,Campeones
+CLI-0191,Sierra,3,7,154.77,5,4,4,Campeones
+CLI-0192,Sierra,312,2,23.78,1,1,1,Perdidos
+CLI-0193,Sierra,46,3,54.96,3,2,2,Potenciales
+CLI-0194,Sierra,54,5,85.23,3,3,3,Leales
+CLI-0195,Sierra,177,2,43.85,1,1,1,Perdidos
+CLI-0196,Sierra,9,5,164.26,5,3,4,Leales
+CLI-0197,Sierra,157,6,199.78,1,4,4,En riesgo
+CLI-0198,Sierra,32,4,79.76,3,2,2,Potenciales
+CLI-0199,Sierra,34,3,70.98,3,2,2,Potenciales
+CLI-0200,Sierra,5,6,104.81,5,4,3,Campeones
+CLI-0201,Sierra,217,1,34.23,1,1,1,Perdidos
+CLI-0203,Sierra,83,4,80.09,2,2,2,En riesgo
+CLI-0204,Sierra,243,2,45.2,1,1,2,Perdidos
+CLI-0205,Sierra,98,1,10.86,2,1,1,En riesgo
+CLI-0206,Sierra,49,5,83.92,3,3,3,Leales
+CLI-0207,Sierra,17,4,82.58,4,2,3,Potenciales
+CLI-0209,Sierra,4,5,246.61,5,3,5,Leales
+CLI-0210,Sierra,29,5,76.33,3,3,2,Leales
+CLI-0211,Sierra,4,7,102.33,5,4,3,Campeones
+CLI-0212,Sierra,26,6,418.61,3,4,5,Leales
+CLI-0213,Sierra,238,2,10.64,1,1,1,Perdidos
+CLI-0214,Sierra,334,2,80.17,1,1,2,Perdidos
+CLI-0215,Sierra,56,6,129.99,3,4,4,Leales
+CLI-0216,Sierra,36,4,50.44,3,2,2,Potenciales
+CLI-0217,Sierra,258,2,21.32,1,1,1,Perdidos
+CLI-0218,Sierra,3,4,102.4,5,2,3,Potenciales
+CLI-0219,Sierra,23,5,211.62,4,3,4,Leales
+CLI-0220,Sierra,49,5,259.17,3,3,5,Leales
+CLI-0221,Sierra,11,3,212.75,4,2,4,Potenciales
+CLI-0222,Sierra,337,1,71.27,1,1,2,Perdidos
+CLI-0223,Sierra,184,3,80.76,1,2,2,Perdidos
+CLI-0224,Sierra,107,2,502.6,2,1,5,En riesgo
+CLI-0225,Sierra,19,3,114.32,4,2,3,Potenciales
+CLI-0226,Sierra,74,5,120.88,2,3,3,En riesgo
+CLI-0227,Sierra,62,2,63.15,3,1,2,Potenciales
+CLI-0228,Sierra,3,8,185.85,5,5,4,Campeones
+CLI-0229,Sierra,83,6,160.81,2,4,4,En riesgo
+CLI-0230,Sierra,218,2,20.19,1,1,1,Perdidos
+CLI-0231,Sierra,67,8,231.45,2,5,5,En riesgo
+CLI-0232,Sierra,244,2,63.15,1,1,2,Perdidos
+CLI-0233,Sierra,5,7,75.49,5,4,2,Campeones
+CLI-0234,Sierra,293,1,22.05,1,1,1,Perdidos
+CLI-0235,Sierra,243,4,59.92,1,2,2,Perdidos
+CLI-0236,Sierra,159,5,167.62,1,3,4,En riesgo
+CLI-0238,Sierra,23,3,59.7,4,2,2,Potenciales
+CLI-0239,Sierra,39,8,140.27,3,5,4,Leales
+CLI-0240,Sierra,289,1,12.78,1,1,1,Perdidos
+CLI-0241,Sierra,83,4,85.73,2,2,3,En riesgo
+CLI-0242,Sierra,48,3,107.64,3,2,3,Potenciales
+CLI-0243,Sierra,200,2,77.47,1,1,2,Perdidos
+CLI-0244,Sierra,1,91,2543.73,5,5,5,Campeones
+CLI-0245,Sierra,0,10,220.83,5,5,5,Campeones
+CLI-0246,Sierra,89,9,365.91,2,5,5,En riesgo
+CLI-0247,Sierra,245,1,5.28,1,1,1,Perdidos
+CLI-0248,Sierra,19,4,51.91,4,2,2,Potenciales
+CLI-0249,Sierra,24,11,315.04,4,5,5,Campeones
+CLI-0250,Sierra,86,4,81.88,2,2,3,En riesgo
+CLI-0251,Sierra,2,7,83.17,5,4,3,Campeones
+CLI-0252,Sierra,154,2,35.72,1,1,1,Perdidos
+CLI-0253,Sierra,267,2,5.06,1,1,1,Perdidos
+CLI-0254,Sierra,12,3,27.14,4,2,1,Potenciales
+CLI-0255,Sierra,65,6,242.14,2,4,5,En riesgo
+CLI-0256,Sierra,199,3,160.28,1,2,4,Perdidos
+CLI-0257,Sierra,181,2,52.55,1,1,2,Perdidos
+CLI-0258,Sierra,73,7,410.62,2,4,5,En riesgo
+CLI-0259,Sierra,40,4,52.73,3,2,2,Potenciales
+CLI-0260,Sierra,220,3,76.64,1,2,2,Perdidos
+CLI-0261,Sierra,92,5,177.13,2,3,4,En riesgo
+CLI-0262,Sierra,30,8,228.36,3,5,5,Leales
+CLI-0263,Sierra,14,7,69.21,4,4,2,Campeones
+CLI-0264,Sierra,24,5,151.07,4,3,4,Leales
+CLI-0265,Sierra,1,5,117.23,5,3,3,Leales
+CLI-0266,Sierra,17,4,112.36,4,2,3,Potenciales
+CLI-0267,Sierra,9,8,171.24,5,5,4,Campeones
+CLI-0268,Sierra,14,6,150.21,4,4,4,Campeones
+CLI-0269,Sierra,2,8,264.2,5,5,5,Campeones
+CLI-0270,Sierra,66,6,115.72,2,4,3,En riesgo
+CLI-0271,Sierra,20,9,210.06,4,5,4,Campeones
+CLI-0272,Sierra,4,11,288.94,5,5,5,Campeones
+CLI-0273,Sierra,17,8,154.68,4,5,4,Campeones
+CLI-0274,Sierra,2,66,1825.63,5,5,5,Campeones
+CLI-0275,Sierra,5,4,55.14,5,2,2,Potenciales
+CLI-0276,Sierra,89,4,79.24,2,2,2,En riesgo
+CLI-0277,Sierra,22,8,463.28,4,5,5,Campeones
+CLI-0278,Sierra,161,2,20.05,1,1,1,Perdidos
+CLI-0279,Sierra,3,82,2228.12,5,5,5,Campeones
+CLI-0280,Sierra,10,6,111.22,5,4,3,Campeones
+CLI-0281,Sierra,252,1,4.98,1,1,1,Perdidos
+CLI-0282,Sierra,5,4,68.17,5,2,2,Potenciales
+CLI-0283,Sierra,31,3,31.41,3,2,1,Potenciales
+CLI-0284,Sierra,121,4,101.68,2,2,3,En riesgo
+CLI-0285,Sierra,0,100,2843.07,5,5,5,Campeones
+CLI-0286,Sierra,21,5,101.74,4,3,3,Leales
+CLI-0287,Sierra,63,6,111.53,2,4,3,En riesgo
+CLI-0288,Sierra,26,5,32.27,3,3,1,Leales
+CLI-0289,Sierra,61,8,122.89,3,5,4,Leales
+CLI-0290,Sierra,224,3,39.64,1,2,1,Perdidos
+CLI-0291,Sierra,166,5,188.2,1,3,4,En riesgo
+CLI-0292,Sierra,23,7,318.43,4,4,5,Campeones
+CLI-0293,Sierra,90,3,88.24,2,2,3,En riesgo
+CLI-0294,Sierra,16,7,169.17,4,4,4,Campeones
+CLI-0295,Sierra,37,6,121.59,3,4,3,Leales
+CLI-0296,Sierra,42,2,37.92,3,1,1,Potenciales
+CLI-0297,Sierra,1,3,43.79,5,2,1,Potenciales
+CLI-0298,Sierra,3,8,114.97,5,5,3,Campeones
+CLI-0299,Sierra,19,12,347.71,4,5,5,Campeones
+CLI-0300,Sierra,176,7,149.32,1,4,4,En riesgo
+CLI-0301,Sierra,80,5,100.28,2,3,3,En riesgo
+CLI-0302,Sierra,3,84,1701.39,5,5,5,Campeones
+CLI-0304,Sierra,288,1,31.92,1,1,1,Perdidos
+CLI-0305,Sierra,101,4,156.77,2,2,4,En riesgo
+CLI-0306,Sierra,51,4,230.77,3,2,5,Potenciales
+CLI-0307,Sierra,190,2,68.36,1,1,2,Perdidos
+CLI-0308,Sierra,11,7,148.87,4,4,4,Campeones
+CLI-0309,Sierra,151,1,2.84,1,1,1,Perdidos
+CLI-0310,Sierra,23,2,121.21,4,1,3,Potenciales
+CLI-0311,Sierra,26,4,28.14,3,2,1,Potenciales
+CLI-0312,Sierra,13,7,43.06,4,4,1,Campeones
+CLI-0313,Sierra,27,7,140.29,3,4,4,Leales
+CLI-0314,Sierra,12,4,103.16,4,2,3,Potenciales
+CLI-0315,Sierra,206,3,29.11,1,2,1,Perdidos
+CLI-0316,Sierra,46,10,120.0,3,5,3,Leales
+CLI-0317,Sierra,22,4,194.88,4,2,4,Potenciales
+CLI-0318,Sierra,58,5,83.02,3,3,3,Leales
+CLI-0319,Sierra,258,2,12.9,1,1,1,Perdidos
+CLI-0320,Sierra,18,8,182.58,4,5,4,Campeones
+CLI-0321,Sierra,16,8,119.53,4,5,3,Campeones
+CLI-0322,Sierra,72,5,58.44,2,3,2,En riesgo
+CLI-0323,Sierra,27,5,50.42,3,3,2,Leales
+CLI-0324,Sierra,11,3,71.44,4,2,2,Potenciales
+CLI-0325,Sierra,42,5,164.71,3,3,4,Leales
+CLI-0326,Sierra,23,2,44.13,4,1,1,Potenciales
+CLI-0327,Sierra,41,7,238.21,3,4,5,Leales
+CLI-0328,Sierra,43,3,94.31,3,2,3,Potenciales
+CLI-0329,Sierra,10,8,128.78,5,5,4,Campeones
+CLI-0330,Sierra,14,3,50.1,4,2,2,Potenciales
+CLI-0332,Amazonía,108,1,5.75,2,1,1,En riesgo
+CLI-0333,Amazonía,24,7,278.98,4,4,5,Campeones
+CLI-0334,Amazonía,57,4,33.79,3,2,1,Potenciales
+CLI-0335,Amazonía,63,3,82.47,2,2,3,En riesgo
+CLI-0336,Amazonía,22,2,109.6,4,1,3,Potenciales
+CLI-0337,Amazonía,14,4,65.17,4,2,2,Potenciales
+CLI-0338,Amazonía,85,2,64.62,2,1,2,En riesgo
+CLI-0339,Amazonía,1,34,1129.31,5,5,5,Campeones
+CLI-0340,Amazonía,28,3,60.22,3,2,2,Potenciales
+CLI-0341,Amazonía,36,3,65.21,3,2,2,Potenciales
+CLI-0342,Amazonía,118,2,49.0,2,1,2,En riesgo
+CLI-0343,Amazonía,89,2,30.01,2,1,1,En riesgo
+CLI-0345,Amazonía,39,1,8.59,3,1,1,Potenciales
+CLI-0346,Amazonía,190,2,44.18,1,1,1,Perdidos
+CLI-0347,Amazonía,7,42,998.82,5,5,5,Campeones
+CLI-0348,Amazonía,10,2,39.9,5,1,1,Potenciales
+CLI-0349,Amazonía,20,3,47.89,4,2,2,Potenciales
+CLI-0350,Amazonía,79,4,101.12,2,2,3,En riesgo
+CLI-0351,Amazonía,43,2,33.03,3,1,1,Potenciales
+CLI-0352,Amazonía,22,5,115.0,4,3,3,Leales
+CLI-0353,Amazonía,72,3,65.7,2,2,2,En riesgo
+CLI-0354,Amazonía,46,4,197.26,3,2,4,Potenciales
+CLI-0355,Amazonía,58,2,47.28,3,1,2,Potenciales
+CLI-0356,Amazonía,7,8,131.79,5,5,4,Campeones
+CLI-0358,Amazonía,28,5,157.76,3,3,4,Leales
+CLI-0359,Amazonía,7,2,43.81,5,1,1,Potenciales
+CLI-0360,Amazonía,7,37,1127.05,5,5,5,Campeones
+CLI-0361,Amazonía,121,4,158.55,2,2,4,En riesgo
+CLI-0362,Amazonía,29,8,299.95,3,5,5,Leales
+CLI-0363,Amazonía,3,3,213.02,5,2,5,Potenciales
+CLI-0364,Amazonía,1,52,1221.18,5,5,5,Campeones
+CLI-0365,Amazonía,70,2,25.95,2,1,1,En riesgo
+CLI-0366,Amazonía,4,3,103.23,5,2,3,Potenciales
+CLI-0367,Amazonía,99,2,67.34,2,1,2,En riesgo
+CLI-0368,Amazonía,3,4,107.41,5,2,3,Potenciales
+CLI-0369,Amazonía,4,3,27.21,5,2,1,Potenciales
+CLI-0370,Amazonía,87,2,108.14,2,1,3,En riesgo
+CLI-0371,Insular,162,2,34.11,1,1,1,Perdidos
+CLI-0372,Insular,157,2,66.96,1,1,2,Perdidos
+CLI-0373,Insular,12,2,70.23,4,1,2,Potenciales
+CLI-0374,Insular,63,2,17.69,2,1,1,En riesgo
+CLI-0375,Insular,358,1,22.61,1,1,1,Perdidos
+CLI-0376,Insular,22,25,887.32,4,5,5,Campeones
+CLI-0377,Insular,247,2,9.87,1,1,1,Perdidos
+CLI-0378,Insular,361,1,72.39,1,1,2,Perdidos
+CLI-0379,Insular,160,2,170.73,1,1,4,Perdidos
+CLI-0380,Insular,22,3,60.62,4,2,2,Potenciales
+CLI-0386,Insular,3,6,66.12,5,4,2,Campeones
+CLI-0387,Insular,28,3,56.64,3,2,2,Potenciales
+CLI-0388,Insular,275,2,43.63,1,1,1,Perdidos
+CLI-0389,Insular,193,2,43.92,1,1,1,Perdidos
+CLI-0390,Insular,211,1,9.66,1,1,1,Perdidos
+CLI-0391,Insular,0,26,846.66,5,5,5,Campeones
+CLI-0394,Insular,80,3,45.72,2,2,2,En riesgo
+CLI-0395,Insular,38,3,55.48,3,2,2,Potenciales
+CLI-0396,Insular,2,3,151.15,5,2,4,Potenciales
+CLI-0397,Insular,315,1,16.49,1,1,1,Perdidos
+CLI-0398,Insular,155,1,8.32,1,1,1,Perdidos
+CLI-0399,Insular,73,2,144.65,2,1,4,En riesgo
+CLI-0400,Insular,42,2,85.8,3,1,3,Potenciales
