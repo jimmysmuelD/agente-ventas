@@ -97,7 +97,7 @@ orquestador siguiendo el flujo escrito en `CLAUDE.md`.
 5. ¿Qué pasaría con el margen si eliminamos los descuentos mayores al 15 %?
 
 ## Dashboard
-Dashboard publicado: [ENLACE_DASHBOARD]
+Dashboard publicado: https://jimmysmueld.github.io/agente-ventas/
 
 (Se publica con GitHub Pages desde la carpeta `docs/`.)
 
