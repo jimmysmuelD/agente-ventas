@@ -4,8 +4,7 @@ Proyecto universitario de **Analítica de Negocios**: un agente de IA, construid
 que analiza las ventas de una empresa, verifica sus propias cifras con un segundo agente y
 entrega un informe y un dashboard web.
 
-> ⚠️ **Los datos son ficticios.** "Distribuidora Pacífico S.A." no existe; las ventas se generan con
-> `scripts/generar_datos.py` (semilla fija 42) con fines académicos.
+
 
 ## Problema de negocio
 Distribuidora Pacífico S.A. (Ecuador, consumo masivo y hogar, USD) tiene un año de ventas (2025)
