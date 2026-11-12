@@ -1,7 +1,7 @@
 # Agente Analista de Ventas – Distribuidora Pacífico S.A.
 
 ## Empresa
-Distribuidora Pacífico S.A. (ficticia), Ecuador. Vende productos de consumo masivo y hogar
+Distribuidora Pacífico S.A, Ecuador. Vende productos de consumo masivo y hogar
 por tres canales: Tienda física, Online y Mayorista. Moneda: USD. Datos: año 2025.
 
 ## Diccionario de datos (`datos/ventas_2025.csv`, UTF-8, una fila = un pedido de un producto)
